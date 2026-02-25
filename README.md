@@ -28,6 +28,6 @@ Data files are not included in this repository.
 - LaTeX
 
 ## Author
-Fredrik Bergelv 
-Master’s student in Meteorology 
+Fredrik Bergelv,
+Master’s student in Meteorology, 
 MO7021 – Climate and the General Circulation
