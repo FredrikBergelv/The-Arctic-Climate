@@ -1,9 +1,9 @@
-PWD /home/fredrik/Documents/Master in Metrology Stockholm/Climate and the general circulation (MO7021)/The Arctic Climate/Arctic-project-report
+PWD /home/fredrik/Documents/Master in Metrology Stockholm/Climate and the general circulation (MO7021)/The-Arctic-Climate/Arctic-project-report
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/fredrik/Documents/Master in Metrology Stockholm/Climate and the general circulation (MO7021)/The Arctic Climate/Arctic-project-report/main.tex
+INPUT /home/fredrik/Documents/Master in Metrology Stockholm/Climate and the general circulation (MO7021)/The-Arctic-Climate/Arctic-project-report/main.tex
 OUTPUT .output/main.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
