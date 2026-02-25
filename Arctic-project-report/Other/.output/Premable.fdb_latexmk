@@ -1,0 +1,16 @@
+# Fdb version 4
+["pdflatex"] 1759753136.62964 "/home/fredrik/bin/LatexTemplate/Other/Premable.tex" ".output/Premable.pdf" "Premable" 1759753137.30251 2
+  ".output/Premable.aux" 1759753126.10899 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "/etc/texmf/web2c/texmf.cnf" 1732548902.53758 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/home/fredrik/bin/LatexTemplate/Other/Premable.tex" 1759753136.23509 2329 0689ef3a7aec6391e5c8525c71cf8fe5 ""
+  "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm" 1136768653 1300 63a6111ee6274895728663cf4b4e7e81 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1732548954 8213821 17cddad2c49ccf63e58ec66c69761292 ""
+  "Premable.tex" 1759753136.23509 2329 0689ef3a7aec6391e5c8525c71cf8fe5 ""
+  (generated)
+  ".output/Premable.aux"
+  ".output/Premable.log"
+  ".output/Premable.pdf"
+  (rewritten before read)

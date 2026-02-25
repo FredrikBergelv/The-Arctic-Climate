@@ -1,0 +1,56 @@
+\def\thickhrulefill{\leavevmode \leaders \hrule height 1pt\hfill \kern \z@}
+\renewcommand{\maketitle}{\begin{titlepage}
+    \let\footnotesize\small
+    \let\footnoterule\relax
+   \parindent \z@
+    \reset@font
+        \hspace{-30pt}
+       \includegraphics[width=0.27\textwidth]{Figures/logo_MISU_EN.pdf}
+        \hspace{20pt}
+      \vrule depth 0.8\textheight
+      \mbox{\hspace{0.75cm}}
+      \vtop{
+        \vskip 80\p@
+        \begin{flushleft}
+          \large{\@coursename ~(\@coursenumber )}
+        \end{flushleft}
+        \vskip 10\p@
+        \begin{flushleft}
+          \huge \bfseries \@title \par
+        \end{flushleft}
+        \vskip 20\p@
+        \begin{flushleft}
+          \large \@date \par
+        \end{flushleft}
+        \vskip 275\p@
+        \begin{flushleft}
+          \Large \Large \textit{Author:} \@author ~ \small(\href{mailto:\@authorEmail}{\texttt{\@authorEmail}})
+		  \ifthenelse{\equal{\@authorTwo}{}}{}
+			{\\ \hspace{1.78cm} \Large \@authorTwo ~ \small(\href{mailto:\@authorTwoEmail}{\texttt{\@authorTwoEmail}})} \par
+          \Large \textit{Supervisor:} \@supervisor  \par
+        \end{flushleft}
+        \vfil
+        }
+    \null
+  \end{titlepage}
+  \setcounter{footnote}{0}
+}
+
+\setlength{\parindent}{0.0 em}
+\setlength{\parskip}{12pt}
+
+\thispagestyle{plain}
+
+\maketitle
+
+% Headers and footers
+\pagestyle{fancy}
+\fancyhead[L]{\textrm{Stockholm University, Department of Meteorology}}
+\fancyhead[R]{\textrm{\normalsize{\@author \ \@authorTwo}}}  
+\fancyfoot[C]{\thepage}                        
+\fancyfoot[L]{}                                 
+\fancyfoot[R]{}                                 
+
+\makeatother
+
+
