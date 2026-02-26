@@ -1,10 +1,10 @@
 \babel@toc {english}{}\relax 
 \contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Things to write bout}{2}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Background}{2}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.1}Background}{2}{subsection.1.1}%
 \contentsline {section}{\numberline {2}Data and Methods}{2}{section.2}%
-\contentsline {section}{\numberline {3}The Regional Climate and the General Circulation}{13}{section.3}%
-\contentsline {section}{\numberline {4}Regional Climate and the General Circulation}{13}{section.4}%
-\contentsline {section}{\numberline {5}Climate Changes: Ongoing and Projected for the Future}{13}{section.5}%
-\contentsline {section}{\numberline {6}The Climate Impact on Societal Activities}{13}{section.6}%
-\contentsline {section}{\numberline {7}Conclusion}{13}{section.7}%
+\contentsline {section}{\numberline {3}The Regional Climate and the General Circulation}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Things to write bout}{7}{subsection.3.1}%
+\contentsline {section}{\numberline {4}Regional Climate and the General Circulation}{7}{section.4}%
+\contentsline {section}{\numberline {5}Climate Changes: Ongoing and Projected for the Future}{7}{section.5}%
+\contentsline {section}{\numberline {6}The Climate Impact on Societal Activities}{7}{section.6}%
+\contentsline {section}{\numberline {7}Conclusion}{7}{section.7}%

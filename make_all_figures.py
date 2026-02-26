@@ -10,7 +10,7 @@ import mypy.mapplot as mp
 import cmocean
 
 time_start = time()
-folder     = "Arctic-project-report/Figures"
+folder     = "/PyPlots"
 figsize    = 0.8
 isobar_YN  = False
 
@@ -21,17 +21,17 @@ data_tp = xr.open_dataset("data/total_precip_2012_2021.nc")
 data_sd = xr.open_dataset("data/snowdepth_2012_2021.nc")
 
 # Select variable
-blh     = data["blh"] 
-msl     = data["msl"] / 100
-tclw    = data["tclw"] 
-tisr    = data["tisr"] 
-tp      = data_tp["tp"] * 1000
-siconc  = data["siconc"] 
-sst     = data["sst"] - 273.15
-sd      = data_sd["sd"] 
-t2m     = data["t2m"] - 273.15
-tsr     = data["tsr"] 
-skt     = data["tclw"] 
+blh     = data["blh"]           # Boundary layer height
+msl     = data["msl"] / 100     # Mean sea level pressure
+tclw    = data["tclw"]          # Total column cloud liquid water 
+tisr    = data["tisr"]          # Total solar irradiance
+tp      = data_tp["tp"] * 1000  # Total precipitation
+siconc  = data["siconc"]        # Sea Ice Concentration
+sst     = data["sst"] - 273.15  # Sea surface temperature
+sd      = data_sd["sd"]         # Snow depth
+t2m     = data["t2m"] - 273.15  # 2m temperature
+tsr     = data["tsr"]           # Top net solar radiation
+skt     = data["tclw"]          # Total cloud cover
 
 
 # Group by season

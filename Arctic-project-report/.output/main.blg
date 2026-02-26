@@ -3,47 +3,44 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: plainnat.bst
 Database file #1: Textfiles/References.bib
-Warning--entry type for "NSIDC_ArcticWeather" isn't style-file defined
---line 3 of file Textfiles/References.bib
-You've used 2 entries,
+You've used 4 entries,
             2773 wiz_defined-function locations,
-            607 strings with 5437 characters,
-and the built_in function-call counts, 718 in all, are:
-= -- 61
-> -- 31
-< -- 2
-+ -- 11
-- -- 9
-* -- 41
-:= -- 119
-add.period$ -- 9
-call.type$ -- 2
-change.case$ -- 8
-chr.to.int$ -- 2
-cite$ -- 4
-duplicate$ -- 35
-empty$ -- 65
-format.name$ -- 13
-if$ -- 147
+            625 strings with 5664 characters,
+and the built_in function-call counts, 1616 in all, are:
+= -- 143
+> -- 80
+< -- 3
++ -- 28
+- -- 24
+* -- 119
+:= -- 262
+add.period$ -- 16
+call.type$ -- 4
+change.case$ -- 19
+chr.to.int$ -- 4
+cite$ -- 8
+duplicate$ -- 76
+empty$ -- 140
+format.name$ -- 30
+if$ -- 334
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 2
-newline$ -- 21
-num.names$ -- 8
-pop$ -- 23
+missing$ -- 5
+newline$ -- 31
+num.names$ -- 16
+pop$ -- 42
 preamble$ -- 1
-purify$ -- 7
+purify$ -- 16
 quote$ -- 0
-skip$ -- 29
+skip$ -- 56
 stack$ -- 0
-substring$ -- 4
-swap$ -- 2
+substring$ -- 39
+swap$ -- 5
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 17
+type$ -- 34
 warning$ -- 0
-while$ -- 6
+while$ -- 14
 width$ -- 0
-write$ -- 37
-(There was 1 warning)
+write$ -- 65
