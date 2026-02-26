@@ -4,7 +4,7 @@ The top-level auxiliary file: main.aux
 The style file: plainnat.bst
 Database file #1: Textfiles/References.bib
 Warning--entry type for "NSIDC_ArcticWeather" isn't style-file defined
---line 10 of file Textfiles/References.bib
+--line 3 of file Textfiles/References.bib
 You've used 2 entries,
             2773 wiz_defined-function locations,
             607 strings with 5437 characters,

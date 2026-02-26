@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.11.25)  25 FEB 2026 22:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.11.25)  26 FEB 2026 10:07
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -958,211 +958,211 @@ File: Figures/BoundaryLayerHeight_2012_2021_mean_SON.png Graphic file (type png)
 Package pdftex.def Info: Figures/BoundaryLayerHeight_2012_2021_mean_SON.png  used on input line 31.
 (pdftex.def)             Requested size: 197.19653pt x 154.61313pt.
  [2]
-<Figures/SeaLevelPressure_2012_2021_mean_DJF.png, id=119, 273.1806pt x 270.2898pt>
+<Figures/SeaLevelPressure_2012_2021_mean_DJF.png, id=121, 273.1806pt x 270.2898pt>
 File: Figures/SeaLevelPressure_2012_2021_mean_DJF.png Graphic file (type png)
 <use Figures/SeaLevelPressure_2012_2021_mean_DJF.png>
 Package pdftex.def Info: Figures/SeaLevelPressure_2012_2021_mean_DJF.png  used on input line 46.
 (pdftex.def)             Requested size: 156.26894pt x 154.61313pt.
-<Figures/SeaLevelPressure_2012_2021_mean_MAM.png, id=120, 273.1806pt x 270.2898pt>
+<Figures/SeaLevelPressure_2012_2021_mean_MAM.png, id=122, 273.1806pt x 270.2898pt>
 File: Figures/SeaLevelPressure_2012_2021_mean_MAM.png Graphic file (type png)
 <use Figures/SeaLevelPressure_2012_2021_mean_MAM.png>
 Package pdftex.def Info: Figures/SeaLevelPressure_2012_2021_mean_MAM.png  used on input line 53.
 (pdftex.def)             Requested size: 156.26894pt x 154.61313pt.
-<Figures/SeaLevelPressure_2012_2021_mean_JJA.png, id=121, 273.1806pt x 270.2898pt>
+<Figures/SeaLevelPressure_2012_2021_mean_JJA.png, id=123, 273.1806pt x 270.2898pt>
 File: Figures/SeaLevelPressure_2012_2021_mean_JJA.png Graphic file (type png)
 <use Figures/SeaLevelPressure_2012_2021_mean_JJA.png>
 Package pdftex.def Info: Figures/SeaLevelPressure_2012_2021_mean_JJA.png  used on input line 60.
 (pdftex.def)             Requested size: 156.26894pt x 154.61313pt.
-<Figures/SeaLevelPressure_2012_2021_mean_SON.png, id=122, 344.7279pt x 270.2898pt>
+<Figures/SeaLevelPressure_2012_2021_mean_SON.png, id=124, 344.7279pt x 270.2898pt>
 File: Figures/SeaLevelPressure_2012_2021_mean_SON.png Graphic file (type png)
 <use Figures/SeaLevelPressure_2012_2021_mean_SON.png>
 Package pdftex.def Info: Figures/SeaLevelPressure_2012_2021_mean_SON.png  used on input line 67.
 (pdftex.def)             Requested size: 197.19653pt x 154.61313pt.
  [3 <./Figures/BoundaryLayerHeight_2012_2021_mean_DJF.png> <./Figures/BoundaryLayerHeight_2012_2021_mean_MAM.png> <./Figures/BoundaryLayerHeight_2012_2021_mean_JJA.png> <./Figures/BoundaryLayerHeight_2012_2021_mean_SON.png>]
-<Figures/TotalColumnCloudLiquidWater_2012_2021_mean_DJF.png, id=136, 273.1806pt x 270.2898pt>
+<Figures/TotalColumnCloudLiquidWater_2012_2021_mean_DJF.png, id=138, 273.1806pt x 270.2898pt>
 File: Figures/TotalColumnCloudLiquidWater_2012_2021_mean_DJF.png Graphic file (type png)
 <use Figures/TotalColumnCloudLiquidWater_2012_2021_mean_DJF.png>
 Package pdftex.def Info: Figures/TotalColumnCloudLiquidWater_2012_2021_mean_DJF.png  used on input line 82.
 (pdftex.def)             Requested size: 156.26894pt x 154.61313pt.
-<Figures/TotalColumnCloudLiquidWater_2012_2021_mean_MAM.png, id=137, 273.1806pt x 270.2898pt>
+<Figures/TotalColumnCloudLiquidWater_2012_2021_mean_MAM.png, id=139, 273.1806pt x 270.2898pt>
 File: Figures/TotalColumnCloudLiquidWater_2012_2021_mean_MAM.png Graphic file (type png)
 <use Figures/TotalColumnCloudLiquidWater_2012_2021_mean_MAM.png>
 Package pdftex.def Info: Figures/TotalColumnCloudLiquidWater_2012_2021_mean_MAM.png  used on input line 89.
 (pdftex.def)             Requested size: 156.26894pt x 154.61313pt.
-<Figures/TotalColumnCloudLiquidWater_2012_2021_mean_JJA.png, id=138, 273.1806pt x 270.2898pt>
+<Figures/TotalColumnCloudLiquidWater_2012_2021_mean_JJA.png, id=140, 273.1806pt x 270.2898pt>
 File: Figures/TotalColumnCloudLiquidWater_2012_2021_mean_JJA.png Graphic file (type png)
 <use Figures/TotalColumnCloudLiquidWater_2012_2021_mean_JJA.png>
 Package pdftex.def Info: Figures/TotalColumnCloudLiquidWater_2012_2021_mean_JJA.png  used on input line 96.
 (pdftex.def)             Requested size: 156.26894pt x 154.61313pt.
-<Figures/TotalColumnCloudLiquidWater_2012_2021_mean_SON.png, id=139, 341.8371pt x 270.2898pt>
+<Figures/TotalColumnCloudLiquidWater_2012_2021_mean_SON.png, id=141, 341.8371pt x 270.2898pt>
 File: Figures/TotalColumnCloudLiquidWater_2012_2021_mean_SON.png Graphic file (type png)
 <use Figures/TotalColumnCloudLiquidWater_2012_2021_mean_SON.png>
 Package pdftex.def Info: Figures/TotalColumnCloudLiquidWater_2012_2021_mean_SON.png  used on input line 103.
 (pdftex.def)             Requested size: 195.54288pt x 154.61313pt.
  [4 <./Figures/SeaLevelPressure_2012_2021_mean_DJF.png> <./Figures/SeaLevelPressure_2012_2021_mean_MAM.png> <./Figures/SeaLevelPressure_2012_2021_mean_JJA.png> <./Figures/SeaLevelPressure_2012_2021_mean_SON.png>]
-<Figures/SolarRadiation_2012_2021_mean_DJF.png, id=149, 273.1806pt x 270.2898pt>
+<Figures/SolarRadiation_2012_2021_mean_DJF.png, id=151, 273.1806pt x 270.2898pt>
 File: Figures/SolarRadiation_2012_2021_mean_DJF.png Graphic file (type png)
 <use Figures/SolarRadiation_2012_2021_mean_DJF.png>
 Package pdftex.def Info: Figures/SolarRadiation_2012_2021_mean_DJF.png  used on input line 118.
 (pdftex.def)             Requested size: 156.26894pt x 154.61313pt.
-<Figures/SolarRadiation_2012_2021_mean_MAM.png, id=150, 273.1806pt x 270.2898pt>
+<Figures/SolarRadiation_2012_2021_mean_MAM.png, id=152, 273.1806pt x 270.2898pt>
 File: Figures/SolarRadiation_2012_2021_mean_MAM.png Graphic file (type png)
 <use Figures/SolarRadiation_2012_2021_mean_MAM.png>
 Package pdftex.def Info: Figures/SolarRadiation_2012_2021_mean_MAM.png  used on input line 125.
 (pdftex.def)             Requested size: 156.26894pt x 154.61313pt.
-<Figures/SolarRadiation_2012_2021_mean_JJA.png, id=151, 273.1806pt x 270.2898pt>
+<Figures/SolarRadiation_2012_2021_mean_JJA.png, id=153, 273.1806pt x 270.2898pt>
 File: Figures/SolarRadiation_2012_2021_mean_JJA.png Graphic file (type png)
 <use Figures/SolarRadiation_2012_2021_mean_JJA.png>
 Package pdftex.def Info: Figures/SolarRadiation_2012_2021_mean_JJA.png  used on input line 132.
 (pdftex.def)             Requested size: 156.26894pt x 154.61313pt.
-<Figures/SolarRadiation_2012_2021_mean_SON.png, id=152, 325.215pt x 270.2898pt>
+<Figures/SolarRadiation_2012_2021_mean_SON.png, id=154, 325.215pt x 270.2898pt>
 File: Figures/SolarRadiation_2012_2021_mean_SON.png Graphic file (type png)
 <use Figures/SolarRadiation_2012_2021_mean_SON.png>
 Package pdftex.def Info: Figures/SolarRadiation_2012_2021_mean_SON.png  used on input line 139.
 (pdftex.def)             Requested size: 186.03447pt x 154.61313pt.
  [5 <./Figures/TotalColumnCloudLiquidWater_2012_2021_mean_DJF.png> <./Figures/TotalColumnCloudLiquidWater_2012_2021_mean_MAM.png> <./Figures/TotalColumnCloudLiquidWater_2012_2021_mean_JJA.png> <./Figures/TotalColumnCloudLiquidWater_2012_2021_mean_SON.png>]
-<Figures/TotalPrecipitation_2012_2021_mean_DJF.png, id=164, 273.1806pt x 270.2898pt>
+<Figures/TotalPrecipitation_2012_2021_mean_DJF.png, id=166, 273.1806pt x 270.2898pt>
 File: Figures/TotalPrecipitation_2012_2021_mean_DJF.png Graphic file (type png)
 <use Figures/TotalPrecipitation_2012_2021_mean_DJF.png>
 Package pdftex.def Info: Figures/TotalPrecipitation_2012_2021_mean_DJF.png  used on input line 154.
 (pdftex.def)             Requested size: 156.26894pt x 154.61313pt.
-<Figures/TotalPrecipitation_2012_2021_mean_MAM.png, id=165, 273.1806pt x 270.2898pt>
+<Figures/TotalPrecipitation_2012_2021_mean_MAM.png, id=167, 273.1806pt x 270.2898pt>
 File: Figures/TotalPrecipitation_2012_2021_mean_MAM.png Graphic file (type png)
 <use Figures/TotalPrecipitation_2012_2021_mean_MAM.png>
 Package pdftex.def Info: Figures/TotalPrecipitation_2012_2021_mean_MAM.png  used on input line 161.
 (pdftex.def)             Requested size: 156.26894pt x 154.61313pt.
-<Figures/TotalPrecipitation_2012_2021_mean_JJA.png, id=166, 273.1806pt x 270.2898pt>
+<Figures/TotalPrecipitation_2012_2021_mean_JJA.png, id=168, 273.1806pt x 270.2898pt>
 File: Figures/TotalPrecipitation_2012_2021_mean_JJA.png Graphic file (type png)
 <use Figures/TotalPrecipitation_2012_2021_mean_JJA.png>
 Package pdftex.def Info: Figures/TotalPrecipitation_2012_2021_mean_JJA.png  used on input line 168.
 (pdftex.def)             Requested size: 156.26894pt x 154.61313pt.
-<Figures/TotalPrecipitation_2012_2021_mean_SON.png, id=167, 331.7193pt x 270.2898pt>
+<Figures/TotalPrecipitation_2012_2021_mean_SON.png, id=169, 331.7193pt x 270.2898pt>
 File: Figures/TotalPrecipitation_2012_2021_mean_SON.png Graphic file (type png)
 <use Figures/TotalPrecipitation_2012_2021_mean_SON.png>
 Package pdftex.def Info: Figures/TotalPrecipitation_2012_2021_mean_SON.png  used on input line 175.
 (pdftex.def)             Requested size: 189.75514pt x 154.61313pt.
  [6 <./Figures/SolarRadiation_2012_2021_mean_DJF.png> <./Figures/SolarRadiation_2012_2021_mean_MAM.png> <./Figures/SolarRadiation_2012_2021_mean_JJA.png> <./Figures/SolarRadiation_2012_2021_mean_SON.png>]
-<Figures/SeaIce_2012_2021_mean_DJF.png, id=178, 273.1806pt x 270.2898pt>
+<Figures/SeaIce_2012_2021_mean_DJF.png, id=180, 273.1806pt x 270.2898pt>
 File: Figures/SeaIce_2012_2021_mean_DJF.png Graphic file (type png)
 <use Figures/SeaIce_2012_2021_mean_DJF.png>
 Package pdftex.def Info: Figures/SeaIce_2012_2021_mean_DJF.png  used on input line 190.
 (pdftex.def)             Requested size: 156.26894pt x 154.61313pt.
-<Figures/SeaIce_2012_2021_mean_MAM.png, id=179, 273.1806pt x 270.2898pt>
+<Figures/SeaIce_2012_2021_mean_MAM.png, id=181, 273.1806pt x 270.2898pt>
 File: Figures/SeaIce_2012_2021_mean_MAM.png Graphic file (type png)
 <use Figures/SeaIce_2012_2021_mean_MAM.png>
 Package pdftex.def Info: Figures/SeaIce_2012_2021_mean_MAM.png  used on input line 197.
 (pdftex.def)             Requested size: 156.26894pt x 154.61313pt.
-<Figures/SeaIce_2012_2021_mean_JJA.png, id=180, 273.1806pt x 270.2898pt>
+<Figures/SeaIce_2012_2021_mean_JJA.png, id=182, 273.1806pt x 270.2898pt>
 File: Figures/SeaIce_2012_2021_mean_JJA.png Graphic file (type png)
 <use Figures/SeaIce_2012_2021_mean_JJA.png>
 Package pdftex.def Info: Figures/SeaIce_2012_2021_mean_JJA.png  used on input line 204.
 (pdftex.def)             Requested size: 156.26894pt x 154.61313pt.
-<Figures/SeaIce_2012_2021_mean_SON.png, id=181, 335.3328pt x 270.2898pt>
+<Figures/SeaIce_2012_2021_mean_SON.png, id=183, 335.3328pt x 270.2898pt>
 File: Figures/SeaIce_2012_2021_mean_SON.png Graphic file (type png)
 <use Figures/SeaIce_2012_2021_mean_SON.png>
 Package pdftex.def Info: Figures/SeaIce_2012_2021_mean_SON.png  used on input line 211.
 (pdftex.def)             Requested size: 191.8222pt x 154.61313pt.
  [7 <./Figures/TotalPrecipitation_2012_2021_mean_DJF.png> <./Figures/TotalPrecipitation_2012_2021_mean_MAM.png> <./Figures/TotalPrecipitation_2012_2021_mean_JJA.png> <./Figures/TotalPrecipitation_2012_2021_mean_SON.png>]
-<Figures/SeaSurfaceTemperature_2012_2021_mean_DJF.png, id=191, 273.1806pt x 270.2898pt>
+<Figures/SeaSurfaceTemperature_2012_2021_mean_DJF.png, id=193, 273.1806pt x 270.2898pt>
 File: Figures/SeaSurfaceTemperature_2012_2021_mean_DJF.png Graphic file (type png)
 <use Figures/SeaSurfaceTemperature_2012_2021_mean_DJF.png>
 Package pdftex.def Info: Figures/SeaSurfaceTemperature_2012_2021_mean_DJF.png  used on input line 226.
 (pdftex.def)             Requested size: 156.26894pt x 154.61313pt.
-<Figures/SeaSurfaceTemperature_2012_2021_mean_MAM.png, id=192, 273.1806pt x 270.2898pt>
+<Figures/SeaSurfaceTemperature_2012_2021_mean_MAM.png, id=194, 273.1806pt x 270.2898pt>
 File: Figures/SeaSurfaceTemperature_2012_2021_mean_MAM.png Graphic file (type png)
 <use Figures/SeaSurfaceTemperature_2012_2021_mean_MAM.png>
 Package pdftex.def Info: Figures/SeaSurfaceTemperature_2012_2021_mean_MAM.png  used on input line 233.
 (pdftex.def)             Requested size: 156.26894pt x 154.61313pt.
-<Figures/SeaSurfaceTemperature_2012_2021_mean_JJA.png, id=193, 273.1806pt x 270.2898pt>
+<Figures/SeaSurfaceTemperature_2012_2021_mean_JJA.png, id=195, 273.1806pt x 270.2898pt>
 File: Figures/SeaSurfaceTemperature_2012_2021_mean_JJA.png Graphic file (type png)
 <use Figures/SeaSurfaceTemperature_2012_2021_mean_JJA.png>
 Package pdftex.def Info: Figures/SeaSurfaceTemperature_2012_2021_mean_JJA.png  used on input line 240.
 (pdftex.def)             Requested size: 156.26894pt x 154.61313pt.
-<Figures/SeaSurfaceTemperature_2012_2021_mean_SON.png, id=194, 331.7193pt x 270.2898pt>
+<Figures/SeaSurfaceTemperature_2012_2021_mean_SON.png, id=196, 331.7193pt x 270.2898pt>
 File: Figures/SeaSurfaceTemperature_2012_2021_mean_SON.png Graphic file (type png)
 <use Figures/SeaSurfaceTemperature_2012_2021_mean_SON.png>
 Package pdftex.def Info: Figures/SeaSurfaceTemperature_2012_2021_mean_SON.png  used on input line 247.
 (pdftex.def)             Requested size: 189.75514pt x 154.61313pt.
  [8 <./Figures/SeaIce_2012_2021_mean_DJF.png> <./Figures/SeaIce_2012_2021_mean_MAM.png> <./Figures/SeaIce_2012_2021_mean_JJA.png> <./Figures/SeaIce_2012_2021_mean_SON.png>]
-<Figures/SnowDepth_2012_2021_mean_DJF.png, id=204, 273.1806pt x 270.2898pt>
+<Figures/SnowDepth_2012_2021_mean_DJF.png, id=206, 273.1806pt x 270.2898pt>
 File: Figures/SnowDepth_2012_2021_mean_DJF.png Graphic file (type png)
 <use Figures/SnowDepth_2012_2021_mean_DJF.png>
 Package pdftex.def Info: Figures/SnowDepth_2012_2021_mean_DJF.png  used on input line 262.
 (pdftex.def)             Requested size: 156.26894pt x 154.61313pt.
-<Figures/SnowDepth_2012_2021_mean_MAM.png, id=205, 273.1806pt x 270.2898pt>
+<Figures/SnowDepth_2012_2021_mean_MAM.png, id=207, 273.1806pt x 270.2898pt>
 File: Figures/SnowDepth_2012_2021_mean_MAM.png Graphic file (type png)
 <use Figures/SnowDepth_2012_2021_mean_MAM.png>
 Package pdftex.def Info: Figures/SnowDepth_2012_2021_mean_MAM.png  used on input line 269.
 (pdftex.def)             Requested size: 156.26894pt x 154.61313pt.
-<Figures/SnowDepth_2012_2021_mean_JJA.png, id=206, 273.1806pt x 270.2898pt>
+<Figures/SnowDepth_2012_2021_mean_JJA.png, id=208, 273.1806pt x 270.2898pt>
 File: Figures/SnowDepth_2012_2021_mean_JJA.png Graphic file (type png)
 <use Figures/SnowDepth_2012_2021_mean_JJA.png>
 Package pdftex.def Info: Figures/SnowDepth_2012_2021_mean_JJA.png  used on input line 276.
 (pdftex.def)             Requested size: 156.26894pt x 154.61313pt.
-<Figures/SnowDepth_2012_2021_mean_SON.png, id=207, 335.3328pt x 270.2898pt>
+<Figures/SnowDepth_2012_2021_mean_SON.png, id=209, 335.3328pt x 270.2898pt>
 File: Figures/SnowDepth_2012_2021_mean_SON.png Graphic file (type png)
 <use Figures/SnowDepth_2012_2021_mean_SON.png>
 Package pdftex.def Info: Figures/SnowDepth_2012_2021_mean_SON.png  used on input line 283.
 (pdftex.def)             Requested size: 191.8222pt x 154.61313pt.
  [9{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./Figures/SeaSurfaceTemperature_2012_2021_mean_DJF.png> <./Figures/SeaSurfaceTemperature_2012_2021_mean_MAM.png> <./Figures/SeaSurfaceTemperature_2012_2021_mean_JJA.png> <./Figures/SeaSurfaceTemperature_2012_2021_mean_SON.png>]
-<Figures/Temperature_2012_2021_mean_DJF.png, id=219, 273.1806pt x 270.2898pt>
+<Figures/Temperature_2012_2021_mean_DJF.png, id=221, 273.1806pt x 270.2898pt>
 File: Figures/Temperature_2012_2021_mean_DJF.png Graphic file (type png)
 <use Figures/Temperature_2012_2021_mean_DJF.png>
 Package pdftex.def Info: Figures/Temperature_2012_2021_mean_DJF.png  used on input line 298.
 (pdftex.def)             Requested size: 156.26894pt x 154.61313pt.
-<Figures/Temperature_2012_2021_mean_MAM.png, id=220, 273.1806pt x 270.2898pt>
+<Figures/Temperature_2012_2021_mean_MAM.png, id=222, 273.1806pt x 270.2898pt>
 File: Figures/Temperature_2012_2021_mean_MAM.png Graphic file (type png)
 <use Figures/Temperature_2012_2021_mean_MAM.png>
 Package pdftex.def Info: Figures/Temperature_2012_2021_mean_MAM.png  used on input line 305.
 (pdftex.def)             Requested size: 156.26894pt x 154.61313pt.
-<Figures/Temperature_2012_2021_mean_JJA.png, id=221, 273.1806pt x 270.2898pt>
+<Figures/Temperature_2012_2021_mean_JJA.png, id=223, 273.1806pt x 270.2898pt>
 File: Figures/Temperature_2012_2021_mean_JJA.png Graphic file (type png)
 <use Figures/Temperature_2012_2021_mean_JJA.png>
 Package pdftex.def Info: Figures/Temperature_2012_2021_mean_JJA.png  used on input line 312.
 (pdftex.def)             Requested size: 156.26894pt x 154.61313pt.
-<Figures/Temperature_2012_2021_mean_SON.png, id=222, 340.3917pt x 270.2898pt>
+<Figures/Temperature_2012_2021_mean_SON.png, id=224, 340.3917pt x 270.2898pt>
 File: Figures/Temperature_2012_2021_mean_SON.png Graphic file (type png)
 <use Figures/Temperature_2012_2021_mean_SON.png>
 Package pdftex.def Info: Figures/Temperature_2012_2021_mean_SON.png  used on input line 319.
 (pdftex.def)             Requested size: 194.71606pt x 154.61313pt.
  [10 <./Figures/SnowDepth_2012_2021_mean_DJF.png> <./Figures/SnowDepth_2012_2021_mean_MAM.png> <./Figures/SnowDepth_2012_2021_mean_JJA.png> <./Figures/SnowDepth_2012_2021_mean_SON.png>]
-<Figures/TopNetSolarRadiation_2012_2021_mean_DJF.png, id=232, 273.1806pt x 270.2898pt>
+<Figures/TopNetSolarRadiation_2012_2021_mean_DJF.png, id=234, 273.1806pt x 270.2898pt>
 File: Figures/TopNetSolarRadiation_2012_2021_mean_DJF.png Graphic file (type png)
 <use Figures/TopNetSolarRadiation_2012_2021_mean_DJF.png>
 Package pdftex.def Info: Figures/TopNetSolarRadiation_2012_2021_mean_DJF.png  used on input line 334.
 (pdftex.def)             Requested size: 156.26894pt x 154.61313pt.
-<Figures/TopNetSolarRadiation_2012_2021_mean_MAM.png, id=233, 273.1806pt x 270.2898pt>
+<Figures/TopNetSolarRadiation_2012_2021_mean_MAM.png, id=235, 273.1806pt x 270.2898pt>
 File: Figures/TopNetSolarRadiation_2012_2021_mean_MAM.png Graphic file (type png)
 <use Figures/TopNetSolarRadiation_2012_2021_mean_MAM.png>
 Package pdftex.def Info: Figures/TopNetSolarRadiation_2012_2021_mean_MAM.png  used on input line 341.
 (pdftex.def)             Requested size: 156.26894pt x 154.61313pt.
-<Figures/TopNetSolarRadiation_2012_2021_mean_JJA.png, id=234, 273.1806pt x 270.2898pt>
+<Figures/TopNetSolarRadiation_2012_2021_mean_JJA.png, id=236, 273.1806pt x 270.2898pt>
 File: Figures/TopNetSolarRadiation_2012_2021_mean_JJA.png Graphic file (type png)
 <use Figures/TopNetSolarRadiation_2012_2021_mean_JJA.png>
 Package pdftex.def Info: Figures/TopNetSolarRadiation_2012_2021_mean_JJA.png  used on input line 348.
 (pdftex.def)             Requested size: 156.26894pt x 154.61313pt.
-<Figures/TopNetSolarRadiation_2012_2021_mean_SON.png, id=235, 325.215pt x 270.2898pt>
+<Figures/TopNetSolarRadiation_2012_2021_mean_SON.png, id=237, 325.215pt x 270.2898pt>
 File: Figures/TopNetSolarRadiation_2012_2021_mean_SON.png Graphic file (type png)
 <use Figures/TopNetSolarRadiation_2012_2021_mean_SON.png>
 Package pdftex.def Info: Figures/TopNetSolarRadiation_2012_2021_mean_SON.png  used on input line 355.
 (pdftex.def)             Requested size: 186.03447pt x 154.61313pt.
  [11 <./Figures/Temperature_2012_2021_mean_DJF.png> <./Figures/Temperature_2012_2021_mean_MAM.png> <./Figures/Temperature_2012_2021_mean_JJA.png> <./Figures/Temperature_2012_2021_mean_SON.png>]
-<Figures/TotalCloudCover_2012_2021_mean_DJF.png, id=245, 273.1806pt x 270.2898pt>
+<Figures/TotalCloudCover_2012_2021_mean_DJF.png, id=247, 273.1806pt x 270.2898pt>
 File: Figures/TotalCloudCover_2012_2021_mean_DJF.png Graphic file (type png)
 <use Figures/TotalCloudCover_2012_2021_mean_DJF.png>
 Package pdftex.def Info: Figures/TotalCloudCover_2012_2021_mean_DJF.png  used on input line 370.
 (pdftex.def)             Requested size: 156.26894pt x 154.61313pt.
-<Figures/TotalCloudCover_2012_2021_mean_MAM.png, id=246, 273.1806pt x 270.2898pt>
+<Figures/TotalCloudCover_2012_2021_mean_MAM.png, id=248, 273.1806pt x 270.2898pt>
 File: Figures/TotalCloudCover_2012_2021_mean_MAM.png Graphic file (type png)
 <use Figures/TotalCloudCover_2012_2021_mean_MAM.png>
 Package pdftex.def Info: Figures/TotalCloudCover_2012_2021_mean_MAM.png  used on input line 377.
 (pdftex.def)             Requested size: 156.26894pt x 154.61313pt.
-<Figures/TotalCloudCover_2012_2021_mean_JJA.png, id=247, 273.1806pt x 270.2898pt>
+<Figures/TotalCloudCover_2012_2021_mean_JJA.png, id=249, 273.1806pt x 270.2898pt>
 File: Figures/TotalCloudCover_2012_2021_mean_JJA.png Graphic file (type png)
 <use Figures/TotalCloudCover_2012_2021_mean_JJA.png>
 Package pdftex.def Info: Figures/TotalCloudCover_2012_2021_mean_JJA.png  used on input line 384.
 (pdftex.def)             Requested size: 156.26894pt x 154.61313pt.
-<Figures/TotalCloudCover_2012_2021_mean_SON.png, id=248, 335.3328pt x 270.2898pt>
+<Figures/TotalCloudCover_2012_2021_mean_SON.png, id=250, 335.3328pt x 270.2898pt>
 File: Figures/TotalCloudCover_2012_2021_mean_SON.png Graphic file (type png)
 <use Figures/TotalCloudCover_2012_2021_mean_SON.png>
 Package pdftex.def Info: Figures/TotalCloudCover_2012_2021_mean_SON.png  used on input line 391.
@@ -1186,10 +1186,10 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  99i,12n,96p,2509b,949s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on .output/main.pdf (15 pages, 3153657 bytes).
+Output written on .output/main.pdf (15 pages, 3153776 bytes).
 PDF statistics:
- 378 PDF objects out of 1000 (max. 8388607)
- 225 compressed objects within 3 object streams
+ 380 PDF objects out of 1000 (max. 8388607)
+ 227 compressed objects within 3 object streams
  44 named destinations out of 1000 (max. 500000)
  310 words of extra memory for PDF output out of 10000 (max. 10000000)
 

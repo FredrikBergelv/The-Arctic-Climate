@@ -1,17 +1,17 @@
 # Fdb version 4
-["bibtex .output/main"] 1772055235.30946 ".output/main.aux" ".output/main.bbl" ".output/main" 1772055777.65535 0
-  "./Textfiles/References.bib" 1772055229.76505 925 f5e9f0775ed79783d28d1145b6623709 ""
-  ".output/main.aux" 1772055777.29011 13816 47c02c83b4aa2260d4896062494d2315 "pdflatex"
+["bibtex .output/main"] 1772096862.48399 ".output/main.aux" ".output/main.bbl" ".output/main" 1772096865.08703 0
+  "./Textfiles/References.bib" 1772096859.60767 772 708a4d472cd1d7d93dc5a21d7e2b835c ""
+  ".output/main.aux" 1772096864.72169 13805 6a5b326e09c86bcd85513dad81e95116 "pdflatex"
   "/usr/share/texlive/texmf-dist/bibtex/bst/natbib/plainnat.bst" 1233624470 26816 ffe5423d2019860bad9f54bc402fac15 ""
   (generated)
   ".output/main.bbl"
   ".output/main.blg"
   (rewritten before read)
-["pdflatex"] 1772055774.95775 "/home/fredrik/Documents/Master in Metrology Stockholm/Climate and the general circulation (MO7021)/The-Arctic-Climate/Arctic-project-report/main.tex" ".output/main.pdf" "main" 1772055777.65557 0
-  ".output/main.aux" 1772055777.29011 13816 47c02c83b4aa2260d4896062494d2315 "pdflatex"
-  ".output/main.bbl" 1772055235.41308 1017 21764982c0f421ee3dd09ace9513067e "bibtex .output/main"
-  ".output/main.out" 1772055777.29211 1769 e88fa9f79fbf97bf1f09fa818ab39299 "pdflatex"
-  ".output/main.toc" 1772055777.29211 813 952705816521a519a48db43404216e02 "pdflatex"
+["pdflatex"] 1772096862.57056 "/home/fredrik/Documents/Master in Metrology Stockholm/Climate and the general circulation (MO7021)/The-Arctic-Climate/Arctic-project-report/main.tex" ".output/main.pdf" "main" 1772096865.08725 0
+  ".output/main.aux" 1772096864.72169 13805 6a5b326e09c86bcd85513dad81e95116 "pdflatex"
+  ".output/main.bbl" 1772096862.56168 1017 21764982c0f421ee3dd09ace9513067e "bibtex .output/main"
+  ".output/main.out" 1772096864.72269 1769 e88fa9f79fbf97bf1f09fa818ab39299 "pdflatex"
+  ".output/main.toc" 1772096864.72369 813 952705816521a519a48db43404216e02 "pdflatex"
   "/etc/texmf/web2c/texmf.cnf" 1732548902.53758 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/fredrik/Documents/Master in Metrology Stockholm/Climate and the general circulation (MO7021)/The-Arctic-Climate/Arctic-project-report/main.tex" 1771941116.21532 650 1788b65de32e7d8a221bcbe82c56446f ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -302,7 +302,7 @@
   "Other/Information.tex" 1771941146.62487 653 16217a0ce60e0d8d5cb122e402615c3f ""
   "Other/Premable.tex" 1771835753.36463 2192 b1fe235468e6db08692df2cf6540d969 ""
   "Other/Title.tex" 1771834848.26139 1644 583c428ba466a9cfdc3f89488a3d6276 ""
-  "Textfiles/1.Introduction.tex" 1772055774.68511 1520 909e969fbde178adafce89eca0dea3dc ""
+  "Textfiles/1.Introduction.tex" 1772096859.51867 1673 8531d71cc55ddcd4f2f7ad301828ab32 ""
   "Textfiles/2.Data-and-methods.tex" 1771941066.64901 15074 8b9bbe9cd2a2352d5e55d4fee20d59ce ""
   "Textfiles/3.Regional-climate.tex" 1771941422.2316 58 ceab55c1f2e5a11ca56a641a7ad9e957 ""
   "Textfiles/4.General-circulation.tex" 1771941048.08903 55 333d881f8bae742dd1c70bf6c5404585 ""

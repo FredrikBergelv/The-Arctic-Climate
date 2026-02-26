@@ -14,7 +14,7 @@ The main emphasis of the project is the written climate analysis. The Python scr
 - `Figures/` – Generated figures used in the report 
 - `readdata.py` – Script for loading and preparing datasets 
 - `make_all_figures.py` – Generates all seasonal figures 
-- `make_latex_figures.py` – Produces LaTeX figure environments 
+
 
 ## Data
 The analysis is based on reanalysis datasets. 
