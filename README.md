@@ -11,10 +11,11 @@ The main emphasis of the project is the written climate analysis. The Python scr
 ## Repository Structure
 
 - `Arctic-project-report/` – LaTeX source files for the written report 
-- `Figures/` – Generated figures used in the report 
+- `PyPlots/` – Generated figures used in the report 
 - `readdata.py` – Script for loading and preparing datasets 
-- `make_all_figures.py` – Generates all seasonal figures 
-
+- `make_all_figures.py` – Generates all seasonal figures
+- `make_map.py` – Arctic map generation (polar stereographic projection)
+- `make_relevant_figures.py` – generate figures for report
 
 ## Data
 The analysis is based on reanalysis datasets. 
