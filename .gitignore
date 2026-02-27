@@ -7,8 +7,19 @@ __pycache__/
 # Generated figures / scripts
 /old_code/
 
-# VS Code
+# VSCode
 .vscode/
 
 # LaTeX output
-.output/
+Arctic-project-report/.output/
+
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.bbl
+*.blg
