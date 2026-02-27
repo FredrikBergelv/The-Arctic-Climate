@@ -1,19 +1,19 @@
 # Fdb version 4
-["bibtex .output/main"] 1772129519.91513 ".output/main.aux" ".output/main.bbl" ".output/main" 1772129540.5454 0
-  "./Textfiles/References.bib" 1772129519.61103 4189 01a3e76e0aaf45f672f608f46fe7c39b ""
-  ".output/main.aux" 1772129540.30402 7153 2aff7bd8789039e29bd878e84a2c3af1 "pdflatex"
+["bibtex .output/main"] 1772183282.56507 ".output/main.aux" ".output/main.bbl" ".output/main" 1772183286.24149 0
+  "./Textfiles/The-Arctic-climate.bib" 1772183261.82859 4189 01a3e76e0aaf45f672f608f46fe7c39b ""
+  ".output/main.aux" 1772183285.93482 7161 58b4d69e27abb368be0b03f060f8ce4e "pdflatex"
   "/usr/share/texlive/texmf-dist/bibtex/bst/natbib/plainnat.bst" 1233624470 26816 ffe5423d2019860bad9f54bc402fac15 ""
   (generated)
   ".output/main.bbl"
   ".output/main.blg"
   (rewritten before read)
-["pdflatex"] 1772129538.87944 "/home/fredrik/Documents/Master in Metrology Stockholm/Climate and the general circulation (MO7021)/The-Arctic-Climate/Arctic-project-report/main.tex" ".output/main.pdf" "main" 1772129540.54557 0
-  ".output/main.aux" 1772129540.30402 7153 2aff7bd8789039e29bd878e84a2c3af1 "pdflatex"
-  ".output/main.bbl" 1772129520.11803 1422 407f9e610e90f0d0b1174bc7d3e9dd18 "bibtex .output/main"
-  ".output/main.out" 1772129540.30502 1769 46ec415e9b109e62a9f97e1edf42c90c "pdflatex"
-  ".output/main.toc" 1772129540.30502 808 96c8f329a4f889323a6676c260e8c70d "pdflatex"
+["pdflatex"] 1772183282.86363 "/home/fredrik/Documents/Master in Metrology Stockholm/Climate and the general circulation (MO7021)/The-Arctic-Climate/Arctic-project-report/main.tex" ".output/main.pdf" "main" 1772183286.24168 0
+  ".output/main.aux" 1772183285.93482 7161 58b4d69e27abb368be0b03f060f8ce4e "pdflatex"
+  ".output/main.bbl" 1772183282.84479 1422 407f9e610e90f0d0b1174bc7d3e9dd18 "bibtex .output/main"
+  ".output/main.out" 1772183285.93582 1769 46ec415e9b109e62a9f97e1edf42c90c "pdflatex"
+  ".output/main.toc" 1772183285.93682 808 96c8f329a4f889323a6676c260e8c70d "pdflatex"
   "/etc/texmf/web2c/texmf.cnf" 1732548902.53758 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/fredrik/Documents/Master in Metrology Stockholm/Climate and the general circulation (MO7021)/The-Arctic-Climate/Arctic-project-report/main.tex" 1772129208.36812 650 1788b65de32e7d8a221bcbe82c56446f ""
+  "/home/fredrik/Documents/Master in Metrology Stockholm/Climate and the general circulation (MO7021)/The-Arctic-Climate/Arctic-project-report/main.tex" 1772183278.10075 658 c0b0cfa162e6d0368e79a1ca2513377e ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx0700.tfm" 1136768653 3584 ca0c423beaacd28d53ddce5a826cd558 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx0800.tfm" 1136768653 3584 269b66e921ba58750c12f7f1c8ea3ebd ""
@@ -265,7 +265,7 @@
   "Other/Information.tex" 1771941146.62487 653 16217a0ce60e0d8d5cb122e402615c3f ""
   "Other/Premable.tex" 1772129186.12312 1829 6e3ca8f04cd5a4c11e9d562b18b19b09 ""
   "Other/Title.tex" 1771834848.26139 1644 583c428ba466a9cfdc3f89488a3d6276 ""
-  "Textfiles/1.Introduction.tex" 1772129538.60302 1993 92e2ac17a3392c6065f9c8f5ef003ca2 ""
+  "Textfiles/1.Introduction.tex" 1772132188.80436 2065 4de6114f91e37ab00b5af9e7d057ab7c ""
   "Textfiles/2.Data-and-methods.tex" 1772126811.41349 6243 df9a96cfd7501fa972f375a986501fd9 ""
   "Textfiles/3.Regional-climate.tex" 1772124179.41325 877 6ec0b4362dc9a1a606a3e7db6f87ac29 ""
   "Textfiles/4.General-circulation.tex" 1771941048.08903 55 333d881f8bae742dd1c70bf6c5404585 ""
@@ -273,7 +273,7 @@
   "Textfiles/6.Societal-activities.tex" 1771941311.30212 52 cfa013e748759be782f8bc7c5bbdc213 ""
   "Textfiles/7.Conclusion.tex" 1771941134.45821 21 5263826852d7c88eadf74b948137ff83 ""
   "Textfiles/Appendix.tex" 1771834848.26539 10 3c684b180bbb475dceb509de20fb1bd7 ""
-  "main.tex" 1772129208.36812 650 1788b65de32e7d8a221bcbe82c56446f ""
+  "main.tex" 1772183278.10075 658 c0b0cfa162e6d0368e79a1ca2513377e ""
   (generated)
   ".output/main.aux"
   ".output/main.log"
