@@ -8,5 +8,6 @@ __pycache__/
 /old_code/
 
 # Latex stuff
-/Arctic-project-report/.output
-/Arctic-project-report/.vscode
+/Arctic-project-report/.output/
+/Arctic-project-report/.vscode/
+/.vscode/
