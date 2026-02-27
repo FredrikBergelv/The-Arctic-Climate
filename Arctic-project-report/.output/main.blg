@@ -3,10 +3,9 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: plainnat.bst
 Database file #1: Textfiles/The-Arctic-climate.bib
-Warning--I didn't find a database entry for "serrezeArcticClimateSystem2014"
 You've used 7 entries,
             2773 wiz_defined-function locations,
-            647 strings with 6122 characters,
+            645 strings with 6062 characters,
 and the built_in function-call counts, 2539 in all, are:
 = -- 221
 > -- 110
@@ -45,4 +44,3 @@ warning$ -- 0
 while$ -- 23
 width$ -- 0
 write$ -- 105
-(There was 1 warning)

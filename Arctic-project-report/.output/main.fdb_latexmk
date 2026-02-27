@@ -1,17 +1,17 @@
 # Fdb version 4
-["bibtex .output/main"] 1772190568.48256 ".output/main.aux" ".output/main.bbl" ".output/main" 1772190572.35213 0
+["bibtex .output/main"] 1772212635.58865 ".output/main.aux" ".output/main.bbl" ".output/main" 1772212637.8104 0
   "./Textfiles/The-Arctic-climate.bib" 1772190089.09902 4996 a391d1194e47d1f3c6bceaab86d4e528 ""
-  ".output/main.aux" 1772190571.94626 7377 8f9c02706b12e306829700e970ad2937 "pdflatex"
+  ".output/main.aux" 1772212637.54235 7792 6166fcdb7f8adbe60489a567bc41238e "pdflatex"
   "/usr/share/texlive/texmf-dist/bibtex/bst/natbib/plainnat.bst" 1233624470 26816 ffe5423d2019860bad9f54bc402fac15 ""
   (generated)
   ".output/main.bbl"
   ".output/main.blg"
   (rewritten before read)
-["pdflatex"] 1772190568.71198 "/home/fredrik/Documents/Master in Metrology Stockholm/Climate and the general circulation (MO7021)/The-Arctic-Climate/Arctic-project-report/main.tex" ".output/main.pdf" "main" 1772190572.35233 0
-  ".output/main.aux" 1772190571.94626 7377 8f9c02706b12e306829700e970ad2937 "pdflatex"
-  ".output/main.bbl" 1772190568.69526 2069 8d75f2b5dbe2e1a0778b8d1a98131e9a "bibtex .output/main"
-  ".output/main.out" 1772190571.94726 1881 7fb1041ab3768b8ceae190e46e115c55 "pdflatex"
-  ".output/main.toc" 1772190571.94726 828 6eae60e4766a908fe32a1055dd76e2e4 "pdflatex"
+["pdflatex"] 1772212635.67483 "/home/fredrik/Documents/Master in Metrology Stockholm/Climate and the general circulation (MO7021)/The-Arctic-Climate/Arctic-project-report/main.tex" ".output/main.pdf" "main" 1772212637.81057 0
+  ".output/main.aux" 1772212637.54235 7792 6166fcdb7f8adbe60489a567bc41238e "pdflatex"
+  ".output/main.bbl" 1772212635.66728 2069 8d75f2b5dbe2e1a0778b8d1a98131e9a "bibtex .output/main"
+  ".output/main.out" 1772212637.54335 1841 10ac63fc9a940b096622929e850c87e2 "pdflatex"
+  ".output/main.toc" 1772212637.54335 820 a5c22e8ef903dca07c091821dc43c720 "pdflatex"
   "/etc/texmf/web2c/texmf.cnf" 1732548902.53758 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/fredrik/Documents/Master in Metrology Stockholm/Climate and the general circulation (MO7021)/The-Arctic-Climate/Arctic-project-report/main.tex" 1772183278.10075 658 c0b0cfa162e6d0368e79a1ca2513377e ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -33,6 +33,7 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecti1440.tfm" 1136768653 3072 9a80c2966d6c06d677719db0a9b772d0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ectt0900.tfm" 1136768653 1536 ae7aab2f8a4bc9edfce2899f53ba88c3 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm0800.tfm" 1136768653 1536 05df9db6aeccc4eea94fec15c9024f79 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm" 1246382020 924 9904cf1d39e9767e7a3622f2a125a565 ""
@@ -261,12 +262,13 @@
   "Figures/Temperature_2012_2021_mean_SON.png" 1772125917.8831 105072 f0d3b95df4d1d5d6013011d4f70d3887 ""
   "Figures/TotalPrecipitation_2012_2021_annual.png" 1772125923.20869 103012 c3fcd57c19e3f3ec4cc6a9dbf621ff76 ""
   "Figures/logo_MISU_EN.pdf" 1771834848.25939 40858 fc7ad205eb72aa9d1e9d1763e562ccd7 ""
+  "Figures/map.png" 1772212417.646 676054 462052d5271704458ab3fcb75973b933 ""
   "Other/Information.tex" 1771941146.62487 653 16217a0ce60e0d8d5cb122e402615c3f ""
   "Other/Premable.tex" 1772129186.12312 1829 6e3ca8f04cd5a4c11e9d562b18b19b09 ""
   "Other/Title.tex" 1771834848.26139 1644 583c428ba466a9cfdc3f89488a3d6276 ""
-  "Textfiles/1.Introduction.tex" 1772190563.50525 3358 458179f41e2ef2c0474cf2cc6d99dbc4 ""
+  "Textfiles/1.Introduction.tex" 1772212633.13017 5005 b9d8f4492170e810ca934ba81896e543 ""
   "Textfiles/2.Data-and-methods.tex" 1772126811.41349 6243 df9a96cfd7501fa972f375a986501fd9 ""
-  "Textfiles/3.Regional-climate.tex" 1772124179.41325 877 6ec0b4362dc9a1a606a3e7db6f87ac29 ""
+  "Textfiles/3.Regional-climate.tex" 1772205811.24912 691 f39e31763dbbbf67549bda575591138e ""
   "Textfiles/4.General-circulation.tex" 1771941048.08903 55 333d881f8bae742dd1c70bf6c5404585 ""
   "Textfiles/5.Climate-change.tex" 1771941028.27619 64 88edf1c866820eb92c47899cc7572463 ""
   "Textfiles/6.Societal-activities.tex" 1771941311.30212 52 cfa013e748759be782f8bc7c5bbdc213 ""
