@@ -530,7 +530,6 @@ INPUT Textfiles/Appendix.tex
 INPUT .output/main.aux
 INPUT .output/main.out
 INPUT .output/main.out
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
 INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfbx0700.pfb
 INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfbx0800.pfb
