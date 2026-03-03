@@ -4,14 +4,38 @@
 
 \input{Other/Information}
 
+\ifthenelse{\equal{\draftmode}{y}}{
+\usepackage{environ} 
+\RenewEnviron{figure}[1][]{}
+}{}
+
 \begin{document}
 
 \input{Other/Title}
 
+\ifthenelse{\equal{\draftmode}{y}}{
+\makeatletter
+\renewcommand{\section}[1]{
+  \refstepcounter{section}
+  \addcontentsline{toc}{section}{\thesection\quad #1}
+  \par\bigskip
+  \textbf{#1}\par\medskip
+}
+\renewcommand{\subsection}[1]{%
+  \refstepcounter{subsection}
+  \addcontentsline{toc}{subsection}{\thesubsection\quad #1}
+  \par\smallskip
+  \textbf{#1}\par\smallskip
+}
+\makeatother
+\renewcommand{\newpage}{}
+}{}
+
+\ifthenelse{\equal{\draftmode}{n}}{
 \ifthenelse{\equal{\IncludeTab}{y}}{
 \tableofcontents
-\newpage}{}
-
+\newpage}{}}{}
+    
 \input{Textfiles/1.Introduction.tex}
 \input{Textfiles/2.Data-and-methods.tex}
 \input{Textfiles/3.Regional-climate.tex}
@@ -21,6 +45,7 @@
 \input{Textfiles/7.Conclusion.tex}
 
 \newpage
+
 \ifthenelse{\equal{\IncludeBib}{y}}{\bibliography{Textfiles/The-Arctic-climate.bib}}{}
 
 \input{Textfiles/Appendix}

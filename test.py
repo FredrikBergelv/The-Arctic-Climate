@@ -25,4 +25,4 @@ file = "data/2012.nc"
 data = xr.open_dataset(file)
 #print(data)
 
-print(data.attrs)
+print(data["e"])

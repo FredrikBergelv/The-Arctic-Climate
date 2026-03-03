@@ -10,9 +10,9 @@ import mypy.mapplot as mp
 import cmocean
 
 time_start = time()
-folder     = "/PyPlots"
+folder     = "PyPlots"
 figsize    = 0.8
-isobar_YN  = False
+isobar_YN  = True
 
 
 #open the data
@@ -199,7 +199,7 @@ for season in ["DJF", "MAM", "JJA", "SON"]:
         isobar_levels=None if isobar_YN == False else [970,980,990,1000,1010,1020,1030,1040,1050],
         isobar_color=None if isobar_YN == False else "white",
         size=figsize,
-        clim=( 0, 20),
+        clim=( 0, 15),
         colorbar=bar_YN,
         outputdir=f"{folder}/SeaSurfaceTemperature_2012_2021_mean_{season}.png",
         show=False
@@ -230,7 +230,7 @@ for season in ["DJF", "MAM", "JJA", "SON"]:
         lat_range=(90, 60),
         bartitle="Temperature [°C]",
         title=f"2m Air Temperature ({season})",
-        cmap=cmocean.cm.thermal,
+        cmap=cmocean.cm.balance,
         projection="azimuthal",
         mapscale="50m",
         isobars=None if isobar_YN == False else mean_msl,
