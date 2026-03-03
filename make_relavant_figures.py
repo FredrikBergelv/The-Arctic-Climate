@@ -60,7 +60,7 @@ for season in ["DJF", "MAM", "JJA", "SON"]:
         lat_range=(90, 60),
         bartitle="Height [m]",
         title=f"Boundary layer height ({season})",
-        cmap=cmocean.cm.dense,
+        cmap=cmocean.cm.deep,
         projection="azimuthal",
         mapscale="50m",
         isobars=None if isobar_YN == False else mean_msl,
@@ -69,6 +69,7 @@ for season in ["DJF", "MAM", "JJA", "SON"]:
         size=figsize,
         clim=(0,1050),
         colorbar=bar_YN,
+        gridlinecolor="white",
         outputdir=f"{folder}/BoundaryLayerHeight_2012_2021_mean_{season}.png",
         show=False
     )
@@ -89,6 +90,7 @@ for season in ["DJF", "MAM", "JJA", "SON"]:
         clim=( 995, 1030),
         valuescale=35,
         colorbar=bar_YN,
+        gridlinecolor="white",
         outputdir=f"{folder}/SeaLevelPressure_2012_2021_mean_{season}.png",
         show=False
     )
@@ -109,6 +111,7 @@ for season in ["DJF", "MAM", "JJA", "SON"]:
         size=figsize,
         clim=( 0, 1),
         colorbar=bar_YN,
+        gridlinecolor="white",
         outputdir=f"{folder}/SeaIce_2012_2021_mean_{season}.png",
         show=False
     )
@@ -126,8 +129,9 @@ for season in ["DJF", "MAM", "JJA", "SON"]:
         isobar_levels=None if isobar_YN == False else [970,980,990,1000,1010,1020,1030,1040,1050],
         isobar_color=None if isobar_YN == False else "white",
         size=figsize,
-        clim=( -30, 30),
+        clim=( -30, 15),
         colorbar=bar_YN,
+        gridlinecolor="white",
         outputdir=f"{folder}/Temperature_2012_2021_mean_{season}.png",
         show=False
     )
@@ -151,6 +155,7 @@ mp.xarray(
     size=figsize,
     clim=(0,10),
     colorbar=True,
+    gridlinecolor="white",
     outputdir=f"{folder}/TotalPrecipitation_2012_2021_annual.png",
     show=False
     )
@@ -168,13 +173,12 @@ mp.xarray(
     isobar_levels=None if isobar_YN == False else [970,980,990,1000,1010,1020,1030,1040,1050],
     isobar_color=None if isobar_YN == False else "white",
     size=figsize,
-     clim=( 0, 20),
+     clim=( 0, 15),
     colorbar=True,
+    gridlinecolor="white",
     outputdir=f"{folder}/SeaSurfaceTemperature_2012_2021_annual.png",
     show=False
     )
 
 elapsed_time = time() - time_start
 print(f"Execution time: {elapsed_time/60:.0f} minutes and {elapsed_time%60:.0f} seconds")
-
-# %%

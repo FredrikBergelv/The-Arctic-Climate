@@ -28,7 +28,7 @@ ax.plot(lons, lats, transform=ccrs.PlateCarree(),
 ax.set_extent([-180, 180, 65, 90], ccrs.PlateCarree())
 
 # Gridlines
-gl = ax.gridlines(draw_labels=False, linewidth=0.5, color='black', alpha=0.5, linestyle='--')
+gl = ax.gridlines(draw_labels=False, linewidth=0.2, color='black', alpha=0.5)
 
 # --- Locations from text with approximate lat/lon ---
 locations = {
@@ -37,7 +37,7 @@ locations = {
     "Labrador Sea": (61, -55),
     "Baffin Bay": (70, -65),
     "Bering Strait": (66.5, -168),
-    "Canadian Archipelago": (75, -100),
+    "Arctic Archipelago": (75, -100),
     "Barents Sea": (75, 40),
     "Fram Strait": (79, -10),
     "Beaufort Sea": (73, -145),

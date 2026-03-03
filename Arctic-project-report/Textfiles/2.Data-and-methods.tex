@@ -1,4 +1,40 @@
-\section{Data and Methods}
+\section{Data and Methodology}
+
+
+\subsection{Methodology}
+The data used in this report is based on reanalysis data, which is a combination of model simulations and observational data. The data comes from the ERA5 reanalysis produced by the European Centre for Medium-Range Weather Forecasts (ECMWF) and obtained from the Copernicus Climate Data Website. ERA5 is a global atmospheric reanalysis that provides a physically consistent estimate of the state of the atmosphere by assimilating observational data into numerical weather prediction models \citep{hersbach2020}. This dataset has a horizontal resolution of 0.25° × 0.25° and covers the period from 2012 to 2021. Monthly mean fields from 2012 until 2021 were analysed. The data were processed using Python (xarray), and graphical plots were produced using matplotlib and cartopy to visualize spatial patterns and seasonal variability in the Arctic region.
+
+
+The reanalysis data has strengths in providing a comprehensive and continuous dataset that covers a long period of time and a wide range of variables. However, it also has limitations. The reanalysed data combine observations from various sources, including satellites, weather stations, aeroplanes, and buoys, however some regions, especially in the Arctic, have sparse observational coverage, which lead to a stronger dependence on the ones present such as satellites \citep{hersbach2020}. This can give rise to errors and biases such as measuring cloud cover, due to the white surface of the ice and snow leading to an overestimation of the cloud cover in the region \citep{hersbach2020}. Other more complex interactions, such the sea ice and atmospheric interaction, will then be heavily dependent on the model's ability to capture these interactions. Different thicknesses and coverage of sea ice will affect the atmospheric temperature, radiance, and albedo in that area and will thus directly affect the atmospheric circulation and energy budget. Due to the the complexity of measuring ice cover, and especially ice thickness, the data is mostly model based data. However the model only has a spatial resolution of 0.25° × 0.25°, which is not enough to capture small ice shelves in the ocean. For example, if a region has 50\% sea ice cover, the model will only be able to capture this as one averaged value. Thus, the uncertainties from the model simulations can be higher due to lack of observations. Another important aspect to consider is temporal resolution. The data used in this report is based on monthly mean fields, which means that it may not capture short-term variability in the Arctic region. This can include phenomena such as storms or cyclones, which can have a significant impact on the atmospheric conditions in the region. 
+
+
+
+
+\subsection{The data}
+Above in the background section two main sub-regions of the Arctic were defined, the Arctic dessert and the Arctic tundra. It is therefore relevant to evaluate the precipitation in the region, as it is a key factor in determining the type of ecosystem present. The annual mean percipitation for the period 2012--2021 can be seen in \autoref{fig:TotalPrecipitation_2012_2021_annual}. The figure shows that the Arctic region is generally dry, with most areas receiving less than 500 mm of precipitation per year. The highest precipitation levels are observed along the coastlines, particularly in the Barents Sea and the Bering Sea, where values can exceed 1000 mm per year. This is consistent with the fact that the Arctic region is characterized by low precipitation levels, which contribute to the formation of polar deserts and tundra ecosystems.
+
+
+
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[height=0.23\textheight,keepaspectratio]{Figures/TotalPrecipitation_2012_2021_annual.png}
+        \caption{Total Precipitation}
+        \label{fig:TotalPrecipitation_2012_2021_annual}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[height=0.23\textheight,keepaspectratio]{Figures/SeaSurfaceTemperature_2012_2021_annual.png}
+        \caption{Sea Surface Temperature}
+        \label{fig:SeaSurfaceTemperature_2012_2021_annual}
+    \end{subfigure}
+    \caption{Annual mean total precipitation and sea surface temperature for 2012--2021.}
+    \label{fig:annual_means}
+\end{figure}
+
 
 describe through which observations or techniques the data is constructed, as well as the methods you have used to analyse and present the data graphically. Here, it is important to discuss the reliability and limitations of the data as well as the analyses you have
 used.
@@ -138,23 +174,4 @@ used.
     \label{fig:Temperature_2012_2021_mean}
 \end{figure}
 
-
-\begin{figure}[H]
-    \centering
-    \begin{subfigure}[b]{0.49\textwidth}
-        \centering
-        \includegraphics[height=0.23\textheight,keepaspectratio]{Figures/TotalPrecipitation_2012_2021_annual.png}
-        \caption{Total Precipitation}
-        \label{fig:TotalPrecipitation_2012_2021_annual}
-    \end{subfigure}
-    \hfill
-    \begin{subfigure}[b]{0.49\textwidth}
-        \centering
-        \includegraphics[height=0.23\textheight,keepaspectratio]{Figures/SeaSurfaceTemperature_2012_2021_annual.png}
-        \caption{Sea Surface Temperature}
-        \label{fig:SeaSurfaceTemperature_2012_2021_annual}
-    \end{subfigure}
-    \caption{Annual mean total precipitation and sea surface temperature for 2012--2021.}
-    \label{fig:annual_means}
-\end{figure}
 
