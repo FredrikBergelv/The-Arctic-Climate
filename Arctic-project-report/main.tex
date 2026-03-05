@@ -43,12 +43,15 @@
 \input{Textfiles/5.Climate-change.tex}
 \input{Textfiles/6.Societal-activities.tex}
 \input{Textfiles/7.Conclusion.tex}
+\input{Textfiles/8.Acknowledgements.tex}
+
 
 \newpage
 
-\ifthenelse{\equal{\IncludeBib}{y}}{\bibliography{Textfiles/The-Arctic-climate.bib}}{}
-
-\input{Textfiles/Appendix}
+\ifthenelse{\equal{\IncludeBib}{y}}{
+\bibliography{Textfiles/The-Arctic-climate.bib}
+\label{referances}
+}{}
 
 \end{document}
 
