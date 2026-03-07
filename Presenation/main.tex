@@ -1,0 +1,24 @@
+\documentclass{beamer}
+\usetheme{Hannover} 
+
+\input{Other/Preamble.tex}
+
+\input{Other/Information.tex}
+
+\input{Other/Title.tex}
+
+\begin{document}
+
+\begin{frame}[plain]
+  \titlepage
+\end{frame}
+
+\input{slides.tex}
+
+\ifthenelse{\equal{\IncludeBib}{y}}{
+\begin{frame}{References}
+  \bibliography{references.bib} 
+\end{frame}
+}
+
+\end{document}

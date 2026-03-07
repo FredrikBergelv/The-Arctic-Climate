@@ -7,6 +7,9 @@
 \ifthenelse{\equal{\draftmode}{y}}{
 \usepackage{environ} 
 \RenewEnviron{figure}[1][]{}
+\RenewEnviron{equation}[1]{}
+\RenewEnviron{equation*}[1][]{}
+
 }{}
 
 \begin{document}
