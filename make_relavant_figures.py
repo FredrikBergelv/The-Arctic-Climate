@@ -6,7 +6,7 @@ Created on Sun Feb 23 13:16:09 2026
 
 from time import time
 import xarray as xr
-import mypy.mapplot as mp
+import mapplot as mp
 import cmocean
 
 time_start = time()
@@ -54,25 +54,6 @@ for season in ["DJF", "MAM", "JJA", "SON"]:
     else :
         bar_YN = False
     
-    # Boundary layer height
-    mp.xarray(
-        data=mean_blh,
-        lat_range=(90, 60),
-        bartitle="Height [m]",
-        title=f"Boundary layer height ({season})",
-        cmap=cmocean.cm.deep,
-        projection="azimuthal",
-        mapscale="50m",
-        isobars=None if isobar_YN == False else mean_msl,
-        isobar_levels=None if isobar_YN == False else [970,980,990,1000,1010,1020,1030,1040,1050],
-        isobar_color=None if isobar_YN == False else "black",
-        size=figsize,
-        clim=(0,1050),
-        colorbar=bar_YN,
-        gridlinecolor="white",
-        outputdir=f"{folder}/BoundaryLayerHeight_2012_2021_mean_{season}.png",
-        show=False
-    )
     
     # Mean sea level pressure
     mp.xarray(

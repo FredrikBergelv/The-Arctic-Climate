@@ -11,14 +11,14 @@ import cmocean
 
 time_start = time()
 folder     = "PyPlots"
-figsize    = 0.8
+figsize    = 1.8
 isobar_YN  = True
 
 
 #open the data
-data    = xr.open_dataset("data/totdata.nc")
-data_tp = xr.open_dataset("data/total_precip_2012_2021.nc")
-data_sd = xr.open_dataset("data/snowdepth_2012_2021.nc")
+data    = xr.open_dataset("data/totdata.nc", chunks={"time": 100})
+data_tp = xr.open_dataset("data/total_precip_2012_2021.nc", chunks={"time": 100})
+data_sd = xr.open_dataset("data/snowdepth_2012_2021.nc", chunks={"time": 100})
 
 # Select variable
 blh     = data["blh"]           # Boundary layer height
@@ -34,6 +34,7 @@ tsr     = data["tsr"]           # Top net solar radiation
 skt     = data["tclw"]          # Total cloud cover
 
 
+
 # Group by season
 seasonal_blh    = blh.groupby("time.season")
 seasonal_msl    = msl.groupby("time.season")
@@ -46,6 +47,7 @@ seasonal_sd     = sd.groupby("time.season")
 seasonal_t2m    = t2m.groupby("time.season")
 seasonal_tsr    = tsr.groupby("time.season")
 seasonal_skt    = skt.groupby("time.season")
+
 
 
 
@@ -74,7 +76,7 @@ for season in ["DJF", "MAM", "JJA", "SON"]:
     # Boundary layer height
     mp.xarray(
         data=mean_blh,
-        lat_range=(90, 60),
+        lat_range=(90, 50),
         bartitle="Height [m]",
         title=f"Boundary layer height ({season})",
         cmap=cmocean.cm.dense,
@@ -93,7 +95,7 @@ for season in ["DJF", "MAM", "JJA", "SON"]:
     # Mean sea level pressure
     mp.xarray(
         data=mean_msl,
-        lat_range=(90, 60),
+        lat_range=(90, 50),
         bartitle="Pressure [hPa]",
         title=f"Sea Level Pressure ({season})",
         cmap=cmocean.cm.diff,
@@ -113,7 +115,7 @@ for season in ["DJF", "MAM", "JJA", "SON"]:
     # Total column cloud liquid water 
     mp.xarray(
         data=mean_tclw,
-        lat_range=(90, 60),
+        lat_range=(90, 50),
         bartitle="Water column [kg/m²]",
         title=f"Total column cloud liquid water ({season})",
         cmap=cmocean.cm.deep,
@@ -132,7 +134,7 @@ for season in ["DJF", "MAM", "JJA", "SON"]:
     # Solar radiation 
     mp.xarray(
         data=mean_tisr,
-        lat_range=(90, 60),
+        lat_range=(90, 50),
         bartitle="Solar radiation [W/m²]",
         title=f"Solar Radiation ({season})",
         cmap=cmocean.cm.solar,
@@ -151,7 +153,7 @@ for season in ["DJF", "MAM", "JJA", "SON"]:
     # Total precipitation
     mp.xarray(
         data=mean_tp,
-        lat_range=(90, 60),
+        lat_range=(90, 50),
         bartitle="Precipitation [mm]",
         title=f"Total precipitation ({season})",
         cmap=cmocean.cm.rain,
@@ -170,7 +172,7 @@ for season in ["DJF", "MAM", "JJA", "SON"]:
     # Sea Ice Concentration
     mp.xarray(
         data=mean_siconc,
-        lat_range=(90, 60),
+        lat_range=(90, 50),
         bartitle="Ice Cover [-]",
         title=f"Sea Ice Concentration ({season})",
         cmap=cmocean.cm.ice,
@@ -180,7 +182,7 @@ for season in ["DJF", "MAM", "JJA", "SON"]:
         isobar_levels=None if isobar_YN == False else [970,980,990,1000,1010,1020,1030,1040,1050],
         isobar_color=None if isobar_YN == False else "red",
         size=figsize,
-        clim=( 0, 1),
+        clim=(0, 1),
         colorbar=bar_YN,
         outputdir=f"{folder}/SeaIce_2012_2021_mean_{season}.png",
         show=False
@@ -189,7 +191,7 @@ for season in ["DJF", "MAM", "JJA", "SON"]:
     # Sea surface temperature
     mp.xarray(
         data=mean_sst,
-        lat_range=(90, 60),
+        lat_range=(90, 50),
         bartitle="Temperature [°C]",
         title=f"Sea Surface Temperature ({season})",
         cmap=cmocean.cm.thermal,
@@ -208,7 +210,7 @@ for season in ["DJF", "MAM", "JJA", "SON"]:
     # Snow depth
     mp.xarray(
         data=mean_sd,
-        lat_range=(90, 60),
+        lat_range=(90, 50),
         bartitle="Snow depth [m]",
         title=f"Snow depth ({season})",
         cmap=cmocean.cm.ice,
@@ -227,7 +229,7 @@ for season in ["DJF", "MAM", "JJA", "SON"]:
     # Mean 2m Air Temperature
     mp.xarray(
         data=mean_t2m,
-        lat_range=(90, 60),
+        lat_range=(90, 50),
         bartitle="Temperature [°C]",
         title=f"2m Air Temperature ({season})",
         cmap=cmocean.cm.balance,
@@ -246,7 +248,7 @@ for season in ["DJF", "MAM", "JJA", "SON"]:
     # Top net solar radiation
     mp.xarray(
         data=mean_tsr,
-        lat_range=(90, 60),
+        lat_range=(90, 50),
         bartitle="Radiation [W/m²]",
         title=f"Top Net Solar Radiation ({season})",
         cmap=cmocean.cm.solar,
@@ -265,7 +267,7 @@ for season in ["DJF", "MAM", "JJA", "SON"]:
     # Total cloud cover
     mp.xarray(
         data=mean_skt,
-        lat_range=(90, 60),
+        lat_range=(90, 50),
         bartitle="Cloud cover [-]",
         title=f"Total cloud cover ({season})",
         cmap="Greys",
