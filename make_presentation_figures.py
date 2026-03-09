@@ -6,7 +6,7 @@ Created on Sun Feb 23 13:16:09 2026
 
 from time import time
 import xarray as xr
-import mapplot as mp
+import mypy.mapplot as mp
 import cmocean
 
 time_start = time()
@@ -49,10 +49,10 @@ for season in ["DJF", "MAM", "JJA", "SON"]:
     mean_t2m      = seasonal_t2m.mean(dim="time").sel(season=season)
     
     #Only show colorbar for "SON", since all use the same
-    if season ==  "SON":
+    if season ==  "JJA":
         bar_YN = True
     else :
-        bar_YN = True
+        bar_YN = False
         
    # Mean sea level pressure
     mp.xarray(
@@ -64,14 +64,14 @@ for season in ["DJF", "MAM", "JJA", "SON"]:
        projection="azimuthal",
        mapscale="50m",
        isobars=mean_msl,
-       isobar_levels=[970,980,990,995,1000,1005,1010,1015,1020,1025,1030,1040,1050],
+       isobar_levels=[970,980,990,1000,1010,1020,1030,1040,1050],
        isobar_color="red",
        size=figsize,
-       clim=( 995, 1030),
+       clim=(995, 1030),
        valuescale=35,
        colorbar=bar_YN,
        gridlinecolor="white",
-       outputdir=f"{folder}/SeaLevelPressure_2012_2021_mean_{season}.png",
+       outputdir=f"{folder}/SeaLevelPressure_2012_2021_mean_{season}.pdf",
        show=False
     )
 
@@ -90,9 +90,9 @@ for season in ["DJF", "MAM", "JJA", "SON"]:
         isobar_color=None if isobar_YN == False else "red",
         size=figsize,
         clim=( 0, 1),
-        colorbar=bar_YN,
+        colorbar=True,
         gridlinecolor="white",
-        outputdir=f"{folder}/SeaIce_2012_2021_mean_{season}.png",
+        outputdir=f"{folder}/SeaIce_2012_2021_mean_{season}.pdf",
         show=False
     )
 
@@ -110,9 +110,9 @@ for season in ["DJF", "MAM", "JJA", "SON"]:
         isobar_color=None if isobar_YN == False else "white",
         size=figsize,
         clim=( -30, 30),
-        colorbar=bar_YN,
+        colorbar=True,
         gridlinecolor="white",
-        outputdir=f"{folder}/Temperature_2012_2021_mean_{season}.png",
+        outputdir=f"{folder}/Temperature_2012_2021_mean_{season}.pdf",
         show=False
     )
     
@@ -138,7 +138,7 @@ mp.xarray(
     clim=(0,10),
     colorbar=True,
     gridlinecolor="white",
-    outputdir=f"{folder}/TotalPrecipitation_2012_2021_annual.png",
+    outputdir=f"{folder}/TotalPrecipitation_2012_2021_annual.pdf",
     show=False
     )
 
@@ -158,7 +158,7 @@ mp.xarray(
     clim=(0, 10),
     colorbar=True,
     gridlinecolor="white",
-    outputdir=f"{folder}/SeaSurfaceTemperature_2012_2021_annual.png",
+    outputdir=f"{folder}/SeaSurfaceTemperature_2012_2021_annual.pdf",
     show=False
     )
 
@@ -181,7 +181,7 @@ mp.xarray(
         valuescale=35,
         colorbar=True,
         gridlinecolor="white",
-        outputdir=f"{folder}/SeaLevelPressure_2012_2021_annual.png",
+        outputdir=f"{folder}/SeaLevelPressure_2012_2021_annual.pdf",
         show=False
     )
 
