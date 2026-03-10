@@ -6,18 +6,9 @@ Created on Sun Feb 22 19:29:09 2026
 import xarray as xr
 
 atm_files = [
-    "data/2012.nc",
-    "data/2013.nc",
-    "data/2014.nc",
-    "data/2015.nc",
-    "data/2016.nc",
-    "data/2017.nc",
-    "data/2018.nc",
-    "data/2019.nc",
-    "data/2020.nc",
-    "data/2021.nc",
-    "snowdepth_2012_2021.nc",
-    "total_precip_2012_2021.nc"
+    "data/ERA5.nc",
+    "data/ERA5_precip.nc",
+    "data/ERA5_seaice.nc",
 ]
 
 atm = xr.open_mfdataset(
@@ -26,4 +17,4 @@ atm = xr.open_mfdataset(
     chunks="auto"
 )
 
-atm.to_netcdf("data/totdata.nc")
+atm.to_netcdf("data/ERA52.nc")

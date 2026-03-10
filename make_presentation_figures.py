@@ -16,25 +16,22 @@ isobar_YN  = False
 lats = (90, 55)
 
 #open the data
-data    = xr.open_dataset("data/totdata.nc")
-data_tp = xr.open_dataset("data/total_precip_2012_2021.nc")
-data_sd = xr.open_dataset("data/snowdepth_2012_2021.nc")
+data    = xr.open_dataset("data/ERA5_(2015-2025).nc")
+
 
 # Select variable
-blh     = data["blh"]           # Boundary layer height
 msl     = data["msl"] / 100     # Mean sea level pressure
-tp      = data_tp["tp"] * 1000  # Total precipitation
+tp      = data["tp"] * 1000  # Total precipitation
 siconc  = data["siconc"]        # Sea Ice Concentration
 sst     = data["sst"] - 273.15  # Sea surface temperature
 t2m     = data["t2m"] - 273.15  # 2m temperature
 
 
 # Group by season
-seasonal_blh    = blh.groupby("time.season")
-seasonal_msl    = msl.groupby("time.season")
-seasonal_siconc = siconc.groupby("time.season")
-seasonal_sst    = sst.groupby("time.season")
-seasonal_t2m    = t2m.groupby("time.season")
+seasonal_msl    = msl.groupby("valid_time.season")
+seasonal_siconc = siconc.groupby("valid_time.season")
+seasonal_sst    = sst.groupby("valid_time.season")
+seasonal_t2m    = t2m.groupby("valid_time.season")
 
 
 # Here we make seasonal plots
@@ -42,11 +39,10 @@ seasonal_t2m    = t2m.groupby("time.season")
 for season in ["DJF", "MAM", "JJA", "SON"]:
     
     # Take the mean of each season
-    mean_blh      = seasonal_blh.mean(dim="time").sel(season=season)
-    mean_msl      = seasonal_msl.mean(dim="time").sel(season=season)
-    mean_siconc   = seasonal_siconc.mean(dim="time").sel(season=season)
-    mean_sst      = seasonal_sst.mean(dim="time").sel(season=season)
-    mean_t2m      = seasonal_t2m.mean(dim="time").sel(season=season)
+    mean_msl      = seasonal_msl.mean(dim="valid_time").sel(season=season)
+    mean_siconc   = seasonal_siconc.mean(dim="valid_time").sel(season=season)
+    mean_sst      = seasonal_sst.mean(dim="valid_time").sel(season=season)
+    mean_t2m      = seasonal_t2m.mean(dim="valid_time").sel(season=season)
     
     #Only show colorbar for "SON", since all use the same
     if season ==  "JJA":
@@ -71,7 +67,7 @@ for season in ["DJF", "MAM", "JJA", "SON"]:
        valuescale=35,
        colorbar=bar_YN,
        gridlinecolor="white",
-       outputdir=f"{folder}/SeaLevelPressure_2012_2021_mean_{season}.pdf",
+       outputdir=f"{folder}/SeaLevelPressure_mean_{season}.pdf",
        show=False
     )
 
@@ -92,7 +88,7 @@ for season in ["DJF", "MAM", "JJA", "SON"]:
         clim=( 0, 1),
         colorbar=True,
         gridlinecolor="white",
-        outputdir=f"{folder}/SeaIce_2012_2021_mean_{season}.pdf",
+        outputdir=f"{folder}/SeaIce_mean_{season}.pdf",
         show=False
     )
 
@@ -112,21 +108,21 @@ for season in ["DJF", "MAM", "JJA", "SON"]:
         clim=( -30, 30),
         colorbar=True,
         gridlinecolor="white",
-        outputdir=f"{folder}/Temperature_2012_2021_mean_{season}.pdf",
+        outputdir=f"{folder}/Temperature_mean_{season}.pdf",
         show=False
     )
-    
+
 # Here we make annual mean plots 
-annual_tp  = tp.mean(dim="time")
-annual_sst = sst.mean(dim="time")
-annual_msl = msl.mean(dim="time")
+annual_tp  = tp.mean(dim="valid_time")
+annual_sst = sst.mean(dim="valid_time")
+annual_msl = msl.mean(dim="valid_time")
 
 
 # Total precipitation
 mp.xarray(
     data=annual_tp,
     lat_range=lats,
-    bartitle="Precipitation [mm]",
+    bartitle="Precipitation [mm/d]",
     title=f"Total precipitation",
     cmap=cmocean.cm.rain,
     projection="azimuthal",
@@ -138,7 +134,7 @@ mp.xarray(
     clim=(0,10),
     colorbar=True,
     gridlinecolor="white",
-    outputdir=f"{folder}/TotalPrecipitation_2012_2021_annual.pdf",
+    outputdir=f"{folder}/TotalPrecipitation_annual.pdf",
     show=False
     )
 
@@ -158,7 +154,7 @@ mp.xarray(
     clim=(0, 10),
     colorbar=True,
     gridlinecolor="white",
-    outputdir=f"{folder}/SeaSurfaceTemperature_2012_2021_annual.pdf",
+    outputdir=f"{folder}/SeaSurfaceTemperature_annual.pdf",
     show=False
     )
 
@@ -181,7 +177,40 @@ mp.xarray(
         valuescale=35,
         colorbar=True,
         gridlinecolor="white",
-        outputdir=f"{folder}/SeaLevelPressure_2012_2021_annual.pdf",
+        outputdir=f"{folder}/SeaLevelPressure_annual.pdf",
+        show=False
+    )
+
+
+u = data["u10"]
+v = data["v10"]
+
+# seasonal means
+u_mean = u.mean("valid_time")
+v_mean = v.mean("valid_time")
+
+speed = (u_mean**2 + v_mean**2)**0.5
+
+u_ocean, v_ocean = mp.ocean((u_mean, v_mean))
+
+mp.xarray(
+        data=speed,
+        center=(81,-10),
+        bartitle="Speed [m/s]",
+        title=f"Sea Surface Winds",
+        cmap=cmocean.cm.tempo,
+        projection="orthographic",
+        mapscale="110m",
+        size=figsize,
+        clim=(0, 15),
+        colorbar=True,
+        gridlines=False,
+        wind=(u_ocean, v_ocean), 
+        wind_step=20, 
+        wind_scale=45, 
+        wind_thickness=0.005, 
+        polar_wind=True,
+        outputdir=f"{folder}/SurfaceWind_annual.pdf",
         show=False
     )
 

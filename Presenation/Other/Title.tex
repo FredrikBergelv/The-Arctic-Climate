@@ -11,8 +11,12 @@
   \end{textblock*}
 
     \centering
+      \begin{beamercolorbox}[sep=8pt,center]{institute}
+      \usebeamerfont{institute}\insertinstitute
+    \end{beamercolorbox}
+    \vskip1em\par
     \begin{beamercolorbox}[sep=8pt,center]{title}
-      \usebeamerfont{title}\inserttitle\par%
+      \usebeamerfont{title}\huge \inserttitle\par%
       \ifx\insertsubtitle\empty%
       \else%
         \vskip0.25em%
@@ -24,12 +28,8 @@
       \usebeamerfont{author}\insertauthor
     \end{beamercolorbox}
     \vskip1em\par
-    \begin{beamercolorbox}[sep=8pt,center]{institute}
-      \usebeamerfont{institute}\insertinstitute
-    \end{beamercolorbox}
-    \vskip1em\par
     \begin{beamercolorbox}[sep=8pt,center]{date}
-      \usebeamerfont{date}\insertdate
+      \usebeamerfont{date}\footnotesize\insertdate
     \end{beamercolorbox}
   \endgroup
   \vfill
