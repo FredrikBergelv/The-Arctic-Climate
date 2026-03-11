@@ -1,0 +1,45 @@
+
+\definecolor{bergenblue}{RGB}{215, 214, 240} % Light blue
+
+% Custom title page with logo in the top-right corner
+\setbeamertemplate{title page}{
+  \vbox{}
+  \vfill
+  \begingroup
+    \begin{textblock*}{0.05cm}(3.2cm,0.5cm) % Adjust x-position to align with the logo
+    {\color{bergenblue}\rule{1pt}{7cm}} % Adjust height to match content
+  \end{textblock*}
+
+    \centering
+      \begin{beamercolorbox}[sep=8pt,center]{institute}
+      \usebeamerfont{institute}\insertinstitute
+    \end{beamercolorbox}
+    \vskip1em\par
+    \begin{beamercolorbox}[sep=8pt,center]{title}
+      \usebeamerfont{title}\huge \inserttitle\par%
+      \ifx\insertsubtitle\empty%
+      \else%
+        \vskip0.25em%
+        {\usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\insertsubtitle\par}%
+      \fi%
+    \end{beamercolorbox}
+    \vskip1em\par
+    \begin{beamercolorbox}[sep=8pt,center]{author}
+      \usebeamerfont{author}\insertauthor
+    \end{beamercolorbox}
+    \vskip1em\par
+    \begin{beamercolorbox}[sep=8pt,center]{date}
+      \usebeamerfont{date}\footnotesize\insertdate
+    \end{beamercolorbox}
+  \endgroup
+  \vfill
+  % Add the MISU logo in the top-right corner
+  \begin{textblock*}{5cm}(0.5cm,0.5cm)
+    \includegraphics[width=0.4\textwidth]{Figures/logo_MISU_EN.pdf}
+  \end{textblock*}
+  \vspace*{1cm}
+}
+
+% Required for positioning the logo
+\usepackage[absolute,overlay]{textpos}
+\TPGrid{10}{10} % Adjust grid as needed

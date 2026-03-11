@@ -5,7 +5,7 @@
 The data used in this report is based on reanalysis data, which is a combination of model simulations and observational data. The data comes from the ERA5 reanalysis produced by obtained through \citet{copernicus_climate_change_service_era5_2023}. ERA5 is a global atmospheric reanalysis that provides a physically consistent estimate of the state of the atmosphere by assimilating observational data into numerical weather models \citep{hersbach2020}. The horizontal resolution is $0.25\degr \times 0.25\degr$ and covers the period from 2015 to 2025 by monthly means. The data were processed using Python (xarray), and graphical plots were produced using matplotlib and cartopy to visualize regional patterns and seasonal variability in the Arctic region. For more detail see \autoref{github}. 
 
 
-The reanalysis data has strengths in providing a comprehensive and continuous dataset that covers a long period of time and a wide range of variables. However, it also has limitations. The reanalysed data combine observations from various sources, including satellites, weather stations, aeroplanes, and buoys, however some regions, especially in the Arctic, have sparse observational coverage, which lead to a stronger dependence on the ones present such as satellites \citep{hersbach2020}. This can give rise to errors and biases such as measuring cloud cover, due to the white surface of the ice and snow leading to an overestimation of the cloud cover in the region \citep{hersbach2020}. Other more complex interactions, such the sea ice and atmospheric interaction, will then be heavily dependent on the simulation model's ability to capture these interactions. Thus, the uncertainties from the model simulations can be higher due to lack of observations. Another important aspect to consider is temporal resolution. The data used in this report is based on monthly mean fields, which means that it may not capture short-term variability in the Arctic region such as storms or cyclones. 
+The reanalysis data has strengths in providing a comprehensive and continuous dataset that covers a long period of time and a wide range of variables. Furthermore, the ERA5 version has improved variable uncertainties, such as precipitation, compared to older models \cite{hersbach2020}. However, it also has limitations. The reanalysed data combine observations from various sources, including satellites, weather stations, aeroplanes, and buoys, however some regions, especially in the Arctic, have sparse observational coverage, which lead to a stronger dependence on the ones present such as satellites \citep{hersbach2020}. This can give rise to errors and biases such as measuring cloud cover, due to the white surface of the ice and snow leading to an overestimation of the cloud cover in the region \citep{hersbach2020}. Other more complex interactions, such the sea ice and atmospheric interaction, will then be heavily dependent on the simulation model's ability to capture these interactions. Thus, the uncertainties from the model simulations can be higher due to lack of observations. Another important aspect to consider is temporal resolution. The data used in this report is based on monthly mean fields, which means that it may not capture short-term variability in the Arctic region such as storms or cyclones. 
 
 
 
@@ -14,7 +14,7 @@ The reanalysis data has strengths in providing a comprehensive and continuous da
 \subsection{The data}
 Above in the background section two main sub-regions of the Arctic were defined, the Arctic dessert and the Arctic tundra. It is therefore relevant to evaluate the precipitation in the region, as it is a key factor in determining the type of ecosystem present. The annual mean precipitation for the period 2015 to 2025 can be seen in \autoref{fig:TotalPrecipitation_annual}. The figure shows that the Arctic region is generally dry, with most areas receiving less than \SI{1}{\mm\per\day} of precipitation. Higher levels of precipitation are observed in the tundra areas to the south. Thus categorizing the High Arctic as a dessert is reasonable, as it receives very little precipitation. 
 
-In \autoref{fig:SeaSurfaceTemperature_annual} one can observe the annual mean sea surface temperature for the period. The figure shows warmer water temperatures reaching the arctic ocean near Fram Strait, suggesting inflow of warmer water. One can also observe that the sea surface temperature is generally warmer near the Nordic Countries and the Barents Sea. However, places such as Baffin Bay, Arctic Archipelago, and the High Arctic the temperature is generally near or below freezing. 
+In \autoref{fig:SeaSurfaceTemperature_annual} one can observe the annual mean sea surface temperature for the period. The figure shows warmer water temperatures reaching the Arctic Ocean near Fram Strait, suggesting inflow of warmer water. One can also observe that the sea surface temperature is generally warmer near the Nordic Countries and the Barents Sea. However, places such as Baffin Bay, Arctic Archipelago, and the High Arctic the temperature is generally near or below freezing, suggesting sea ice. 
 
 
 \begin{figure}[H]
@@ -36,11 +36,11 @@ In \autoref{fig:SeaSurfaceTemperature_annual} one can observe the annual mean se
     \label{fig:annual_means}
 \end{figure}
 
-In \autoref{fig:annual_means} the annual mean was calculated, since the annual precipitation and sea surface temperature were interesting to observe to evaluate the type of ecosystem present in the region. However for the data in \autoref{fig:Temperature_mean}--\ref{fig:SeaIce_mean} the seasonal mean was calculated to evaluate the seasonal variability in the region. The seasonal mean was calculated by averaging the monthly mean fields for each season, where DJF corresponds to winter the months, MAM corresponds to the spring months, JJA corresponds to the summer months, and SON corresponds to the autumn months. 
+In \autoref{fig:annual_means} the annual mean was calculated, since the annual precipitation and sea surface temperature were interesting to observe to evaluate the type of ecosystem present in the region. However for the data in \autoref{fig:Temperature_mean}--\ref{fig:SeaIce_mean} the seasonal means was calculated to evaluate the seasonal variability in the region. The seasonal means were calculated by averaging the monthly mean fields for each season, where DJF corresponds to the winter months, MAM corresponds to the spring months, JJA corresponds to the summer months, and SON corresponds to the autumn months. 
 
 \newpage
 
-The air temperature change throughout the seasons can be observed in \autoref{fig:Temperature_mean}. In the figure one can similar temperatures during the spring and the autumn, with slightly lower temperatures during the spring. The summer months are much warmer, with temperatures above freezing everywhere except for negative degrees in Greenland and zero degrees in the Arctic Ocean. The winter months are the coldest, with temperatures well below freezing across the entire region except the Norwegian Sea and parts of the Barents Sea. 
+The air temperature change throughout the seasons can be observed in \autoref{fig:Temperature_mean}. In the figure one can observe similar temperatures during the spring and the autumn, with slightly lower temperatures during the spring. The summer months are much warmer, with temperatures above freezing everywhere except for negative degrees in Greenland and zero degrees in the Arctic Ocean. The winter months are the coldest, with temperatures well below freezing across the entire region except the Norwegian Sea and parts of the Barents Sea. 
 
 
 \begin{figure}[H]
@@ -76,7 +76,7 @@ The air temperature change throughout the seasons can be observed in \autoref{fi
     \label{fig:Temperature_mean}
 \end{figure}
 
-The sea level pressure can be observed in \autoref{fig:SeaLevelPressure_mean}. The figure shows that the sea level pressure is generally very uniform during the summer months, with a slight high pressure system over Greenland. More interestingly is the winter months were a large pressure system can be observed over the Arctic Ocean, with a low pressure system south of the Fram Strait and south of the Bering Strait. This indicate a strong pressure gradient between the Arctic Ocean and the mid-latitudes. Altough weaker, a high pressure system can also be observed during the spring and autumn months.
+The sea level pressure can be observed in \autoref{fig:SeaLevelPressure_mean}. The figure shows that the sea level pressure is generally very uniform during the summer months, with a slight high-pressure system over Greenland. More interestingly is the winter months were a large high-pressure system can be observed over the Arctic Ocean, with a low pressure system south of the Fram Strait and south of the Bering Strait. This indicate a strong pressure gradient between the Arctic Ocean and the mid-latitudes. Although weaker, a high-pressure system can also be observed during the spring and autumn months.
 
 
 \begin{figure}[H]
@@ -112,7 +112,7 @@ The sea level pressure can be observed in \autoref{fig:SeaLevelPressure_mean}. T
     \label{fig:SeaLevelPressure_mean}
 \end{figure}
 
-The seasonal sea ice concentration can be observed in \autoref{fig:SeaIce_mean}. The figure shows that the sea ice concentration is generally very high during the winter and spring months, and much lower during the summer and autumn months. The sea ice concentration is higher in the High Arctic, but lower south of the Fram Strait and in Barents Sea. The most southern sea ice can be observed in the Bering Sea, where the sea ice concentration is around 0.5 during the winter months. More southern sea ice can be seen along the eastern coast of Greenland and in the Bering Strait. 
+The seasonal sea-ice concentration can be observed in \autoref{fig:SeaIce_mean}. The figure shows that the sea-ice concentration is generally very high during the winter and spring months, and much lower during the summer and autumn months. The sea-ice concentration is higher in the High Arctic, but lower south of the Fram Strait and in the Barents Sea. The most southern sea ice can be observed in the Bering Sea, where the sea-ice concentration is around 0.5 during the winter months. More southern sea ice can be seen along the eastern coast of Greenland, the labrador Sea, and the the Bering Sea. 
 
 
 \begin{figure}[H]
@@ -144,7 +144,7 @@ The seasonal sea ice concentration can be observed in \autoref{fig:SeaIce_mean}.
         \label{fig:SeaIce_mean_SON}
     \end{subfigure}
     \\[0.6em]
-    \caption{Seasonal mean sea ice concentration (-) for 2015--2025 for DJF, MAM, JJA, and SON.}
+    \caption{Seasonal mean sea-ice concentration (-) for 2015--2025 for DJF, MAM, JJA, and SON.}
     \label{fig:SeaIce_mean}
 \end{figure}
 
