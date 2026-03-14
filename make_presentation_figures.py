@@ -10,7 +10,7 @@ import mypy.mapplot as mp
 import cmocean
 
 time_start = time()
-folder     = "Presenation/Figures"
+folder     = "Arctic-presentation/Figures"
 figsize    = 0.9
 isobar_YN  = False
 lats = (90, 55)

@@ -6,7 +6,7 @@ Created on Sun Feb 23 13:16:09 2026
 
 from time import time
 import xarray as xr
-import mapplot as mp
+import mypy.mapplot as mp
 import cmocean
 
 time_start = time()
