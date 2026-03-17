@@ -29,25 +29,40 @@
 \headcommand {\beamer@framepages {10}{10}}
 \headcommand {\beamer@sectionpages {1}{10}}
 \headcommand {\beamer@subsectionpages {1}{10}}
-\headcommand {\sectionentry {4}{Climate Change}{11}{Climate Change}{0}}
+\headcommand {\sectionentry {4}{Empirical Orthogonal Functions}{11}{Empirical Orthogonal Functions}{0}}
 \headcommand {\slideentry {4}{0}{0}{11/11}{}{0}}
 \headcommand {\beamer@framepages {11}{11}}
 \headcommand {\slideentry {4}{0}{1}{12/12}{}{0}}
 \headcommand {\beamer@framepages {12}{12}}
 \headcommand {\slideentry {4}{0}{2}{13/13}{}{0}}
 \headcommand {\beamer@framepages {13}{13}}
-\headcommand {\beamer@sectionpages {1}{13}}
-\headcommand {\beamer@subsectionpages {1}{13}}
-\headcommand {\sectionentry {5}{Societal activities}{14}{Societal activities}{0}}
-\headcommand {\slideentry {5}{0}{0}{14/14}{}{0}}
+\headcommand {\slideentry {4}{0}{3}{14/14}{}{0}}
 \headcommand {\beamer@framepages {14}{14}}
-\headcommand {\beamer@sectionpages {1}{14}}
-\headcommand {\beamer@subsectionpages {1}{14}}
-\headcommand {\sectionentry {6}{\translate {References}}{15}{\translate {References}}{0}}
-\headcommand {\slideentry {6}{0}{0}{15/15}{}{0}}
+\headcommand {\slideentry {4}{0}{4}{15/15}{}{0}}
 \headcommand {\beamer@framepages {15}{15}}
-\headcommand {\beamer@partpages {1}{15}}
-\headcommand {\beamer@subsectionpages {1}{15}}
-\headcommand {\beamer@sectionpages {1}{15}}
-\headcommand {\beamer@documentpages {15}}
-\headcommand {\gdef \inserttotalframenumber {15}}
+\headcommand {\slideentry {4}{0}{5}{16/16}{}{0}}
+\headcommand {\beamer@framepages {16}{16}}
+\headcommand {\slideentry {4}{0}{6}{17/17}{}{0}}
+\headcommand {\beamer@framepages {17}{17}}
+\headcommand {\slideentry {4}{0}{7}{18/18}{}{0}}
+\headcommand {\beamer@framepages {18}{18}}
+\headcommand {\beamer@sectionpages {1}{18}}
+\headcommand {\beamer@subsectionpages {1}{18}}
+\headcommand {\sectionentry {5}{Climate Change}{19}{Climate Change}{0}}
+\headcommand {\slideentry {5}{0}{0}{19/19}{}{0}}
+\headcommand {\beamer@framepages {19}{19}}
+\headcommand {\beamer@sectionpages {1}{19}}
+\headcommand {\beamer@subsectionpages {1}{19}}
+\headcommand {\sectionentry {6}{Societal activities}{20}{Societal activities}{0}}
+\headcommand {\slideentry {6}{0}{0}{20/20}{}{0}}
+\headcommand {\beamer@framepages {20}{20}}
+\headcommand {\beamer@sectionpages {1}{20}}
+\headcommand {\beamer@subsectionpages {1}{20}}
+\headcommand {\sectionentry {7}{\translate {References}}{21}{\translate {References}}{0}}
+\headcommand {\slideentry {7}{0}{0}{21/21}{}{0}}
+\headcommand {\beamer@framepages {21}{21}}
+\headcommand {\beamer@partpages {1}{21}}
+\headcommand {\beamer@subsectionpages {1}{21}}
+\headcommand {\beamer@sectionpages {1}{21}}
+\headcommand {\beamer@documentpages {21}}
+\headcommand {\gdef \inserttotalframenumber {21}}
